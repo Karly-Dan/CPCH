@@ -57,19 +57,13 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-
-
 ul{
   display: none;
 }
-
 input:checked  ~ ul{
   display:block;
   margin-top: 32px;
-
 }
-
 .input-menu {
   display: none;
 }
@@ -84,12 +78,10 @@ input:checked  ~ ul{
   float: right;
   padding-right: 40px;
 }
-
 ul{
   margin-top:0;
   padding: 0;
   width: 200px;
-
 }
 li {
   display: block;
@@ -101,11 +93,9 @@ li {
   color: white;
   float: inline-end;
 }
-
 li:hover {
   filter: brightness(110%);
 }
-
 @media (max-width: 776px) {
   .contenedor {
     display: flex;
@@ -115,7 +105,6 @@ li:hover {
     font-size: 12px;
   }
 }
-
 @media (min-width: 1024px) {
     .contenedor {
         display: flex;
@@ -124,9 +113,6 @@ li:hover {
     .titulo-cpch {
     text-align: center;
     font-size: 20px;
-    }
-    .contenedor-menu {
-        display: none;
     }
 }
 </style>
