@@ -39,7 +39,6 @@ export default {
     padding-top: 10px;
     text-align: center;
 }
-
 @media (max-width: 776px) {
     .button-a {
         margin-top: 19px;
@@ -53,7 +52,6 @@ export default {
         justify-content: center;
     }
 }
-
 @media (min-width: 1024px) {
     .button-a {
         margin-top: 5px;
