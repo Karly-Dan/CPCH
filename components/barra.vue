@@ -9,7 +9,6 @@
 
 <script>
 export default {
-
 }
 </script>
 
@@ -30,14 +29,11 @@ export default {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
-
 @media (max-width: 776px) {
     .contenedor-barra {
         display: none;
     }
 }
-
 @media (min-width: 1024px) {
 }
 </style>
