@@ -22,7 +22,7 @@
     <div class="div-button">
         <button-a-vue
         nombre="Registrate"
-        href="https://eco2017.cpcapitalhumano.com.mx/" target="_blank"
+        href="https://eco2017.cpcapitalhumano.com.mx/" 
         />
     </div>
     <footer-vue />
