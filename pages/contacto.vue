@@ -1,6 +1,7 @@
 <template>
   <main>
     <header-vue/>
+    <barra-vue />
     <div>
       <div class="titulo-contactanos">
         <h1>Contactanos</h1>
@@ -16,11 +17,13 @@
 <script>
 import footerVue from '../components/footer.vue'
 import headerVue from '../components/header.vue'
+import barraVue from '../components/barra.vue'
 
 export default {
     components: {
         headerVue,
         footerVue,
+        barraVue,
     }
 }
 </script>
@@ -28,6 +31,9 @@ export default {
 <style>
 body {
     margin: 0;
+}
+main {
+  font-family: Arial, Helvetica, sans-serif;
 }
 .titulo-contactanos {
   text-align: center;
