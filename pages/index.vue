@@ -5,7 +5,7 @@
     <div class="contenedor-informativo">
         <div class="texto-informativo">
             <h1 class="titulo-informativo">EC0217.01 Impartición de cursos de formación del capital humano de manera presencial grupal</h1>
-            <p style="padding-right: 45px;">Descripción del Estándar de Competencia:
+            <p class="descripcion-del-texto">Descripción del Estándar de Competencia:
                 El estándar de competencia impartición de cursos de formación del capital humano de manera presencial y grupal contempla las funciones sustantivas de preparar, conducir y evaluar cursos de capacitación. Preparar la sesión mediante la planeación de la sesión y la comprobación de la existencia y el funcionamiento de los recursos requeridos para la sesión. Conducir la sesión realizando el encuadre, desarrollo y cierre, empleando técnicas instruccionales y grupales que faciliten el proceso de aprendizaje. Evaluar el aprendizaje antes, durante y al final del curso, considerando la satisfacción de los participantes/capacitandos.
                 <br>
                 <br>
@@ -49,6 +49,9 @@ export default {
 body {
     margin: 0;
 }
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .lineas {
     border-radius: 2px;
     height: 2px;
@@ -87,6 +90,9 @@ body {
     }
     .imagen-principal {
         margin-top: 23px;
+    }
+    .descripcion-del-texto {
+        padding-right: 45px;
     }
    
 }
