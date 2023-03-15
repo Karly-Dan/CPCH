@@ -32,6 +32,8 @@ export default {
 .contenedor-cursos {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     width: 26%;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .texto-tarjeta {
     text-align: center;
