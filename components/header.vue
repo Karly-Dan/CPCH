@@ -2,11 +2,11 @@
   <header>
     <div class="contenedor-header">
         <div class="div-czya">
-            <img src="../assets/logoCZYA2.jpeg" alt="">
+            <img src="../assets/logoCZYA.jpg" alt="" class="logo-c">
         </div>
         <nav class="contenedor-menu">
             <input type="checkbox" id="menu" class="input-menu">
-            <label class="label-menu" for="menu"> <img src="../assets/menu.png" alt="" style="filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);"> </label>
+            <label class="label-menu" for="menu"> <img src="../assets/menu.png" alt=""  class="menu-lista" style="filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);"> </label>
             <ul>
                 <li><a href="/acercaDeNosotros"></a>Acerca de nosotros</li>
                 <li><a href="/contacto"></a>Contacto</li>
@@ -17,13 +17,14 @@
     </div>
     <div class="contenedor">
         <div class="div-cpch">
-            <img src="../assets/logocpch.jpeg" alt="">
+            <img src="../assets/logoCPCH.jpg" alt="" class="logo-capitalhumano">
+            <img src="../assets/logoCZYA.jpg" alt="" class="logo-conde">
         </div>
         <div>
             <h1 class="titulo-cpch">CENTRO DE PROFESIONALIZACIÓN DE CAPITAL HUMANO</h1>
         </div>
         <div class="div-redconocer">
-            <img src="../assets/index-2.png" alt="">
+            <img src="../assets/logoRC.jpg" alt="" class="logo-red">
         </div>
     </div>
   </header>
@@ -37,7 +38,6 @@
     background-color: #021373;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 .div-cpch {
@@ -50,6 +50,9 @@
 .lista-menu {
     background-color: #021373;
     position: absolute;
+}
+.menu-lista {
+  padding-top: 8px;
 }
 .a-menu {
     color: white;
@@ -108,8 +111,22 @@ li:hover {
   .contenedor {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   margin-bottom: 20px;
+  padding: 10px;
+  }
+  .logo-conde {
+    display: none;
+  }
+  .logo-red {
+      height: 77px;
+  }
+  .logo-c {
+    height: 50px;
+  }
+  .logo-capitalhumano {
+  height: 90px;  
+  }
 }
-}
+
 @media (min-width: 1024px) {
     .contenedor {
         display: flex;
@@ -118,13 +135,27 @@ li:hover {
     .titulo-cpch {
     text-align: center;
     font-size: 20px;
+    padding-top: 20px;
     }
     .contenedor-menu {
-        display: none;
+    display: none;
     }
     .contenedor {
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  margin-bottom: 20px;
-}
+    margin-bottom: 20px;
+    }
+    .contenedor-header {
+      display: none;
+    }
+    .logo-conde {
+      width: 176px;
+      padding: 15px;
+    }
+    .logo-red {
+      height: 102px;
+    }
+    .logo-capitalhumano {
+      padding: 4px;
+      height: 102px;
+    }
 }
 </style>
