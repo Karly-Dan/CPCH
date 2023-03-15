@@ -1,6 +1,7 @@
 <template>
   <main>
     <header-vue/>
+    <barra-vue />
     <div>
       <div class="titulo-nosotros">
         <h1>Acerca de Nosotros</h1>
@@ -15,6 +16,7 @@
 </template>
 
 <script>
+import barraVue from '../components/barra.vue'
 import footerVue from '../components/footer.vue'
 import headerVue from '../components/header.vue'
 
@@ -22,6 +24,7 @@ export default {
     components: {
         headerVue,
         footerVue,
+        barraVue,
     }
 }
 </script>
@@ -29,6 +32,9 @@ export default {
 <style>
 body {
     margin: 0;
+}
+main {
+  font-family: Arial, Helvetica, sans-serif;
 }
 .titulo-nosotros {
   text-align: center;
@@ -48,5 +54,6 @@ body {
     width: 80%;
     margin: auto;
   }
+  
 }
 </style>
