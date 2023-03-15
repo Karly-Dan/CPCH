@@ -6,13 +6,13 @@
         <p class="privacidad">Avisos de Privacidad</p>
     </div>
     <div class="redes">
-        <img src="../assets/whatsapp.png" alt="whats">
-        <img src="../assets/facebook(1).png" alt="facebook">
-        <img src="../assets/twitter.png" alt="twiter">
-        <img src="../assets/instagram.png" alt="">
-        <img src="../assets/google-mas.png" alt="google">
-        <img src="../assets/linkedin.png" alt="linked">
-        <img src="../assets/youtube(1).png" alt="youtube">
+        <a href="https://web.whatsapp.com/"><img src="../assets/whatsapp.png" alt="whats"></a>
+        <a href="https://www.facebook.com/"><img src="../assets/facebook(1).png" alt="facebook"></a>
+        <a href="https://twitter.com/?lang=es"><img src="../assets/twitter.png" alt="twiter"></a>
+        <a href="https://www.instagram.com/"><img src="../assets/instagram.png" alt=""></a>
+        <a href="https://www.google.com/?hl=es"><img src="../assets/google-mas.png" alt="google"></a>
+        <a href="https://mx.linkedin.com/"><img src="../assets/linkedin.png" alt="linked"></a>
+        <a href="https://www.youtube.com/"><img src="../assets/youtube(1).png" alt="youtube"></a>
     </div>
   </div>
 </template>
@@ -27,16 +27,16 @@ export default {
     background-color: #021373;
     color: white;
     text-align: center;
+    padding-top: 2px;
 }
 .redes {
   filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);
+  cursor: pointer;
 }
 
-
-@media (min-width: 1024px) {
-  .contenido-direccion {
-    display: flex;
-    justify-content: center;
+@media (min-width: 776px) {
+  .contenedor-footer {
+    padding-top: 2px;
   }
   .direccion, .privacidad {
     border-right: 2px solid white ;

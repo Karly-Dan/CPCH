@@ -39,6 +39,10 @@ export default {
     padding-top: 10px;
     text-align: center;
 }
+.contenido-b-a {
+    display: flex;
+    margin: auto;
+}
 @media (max-width: 776px) {
     .button-a {
         margin-top: 19px;
@@ -62,7 +66,6 @@ export default {
         margin-top: -40px;
     }
     .button-a {
-        margin-top: 18px;
         margin-bottom: -29px;
         margin-right: 20px;
         background: #D90404;

@@ -8,10 +8,10 @@
             <input type="checkbox" id="menu" class="input-menu">
             <label class="label-menu" for="menu"> <img src="../assets/menu.png" alt="" style="filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);"> </label>
             <ul>
-                <li>Acerca de nosotros</li>
-                <li>Contacto</li>
-                <li>Mision y Vision</li>
-                <li>Servicios</li>
+                <li><a href=""></a>Acerca de nosotros</li>
+                <li><a href=""></a>Contacto</li>
+                <li><a href=""></a>Mision y Vision</li>
+                <li><a href=""></a>Servicios</li>
             </ul>
         </nav>
     </div>
@@ -39,6 +39,7 @@
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
 .div-cpch {
     background-color: white;
 }
@@ -104,6 +105,10 @@ li:hover {
     text-align: center;
     font-size: 12px;
   }
+  .contenedor {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  margin-bottom: 20px;
+}
 }
 @media (min-width: 1024px) {
     .contenedor {
@@ -114,5 +119,12 @@ li:hover {
     text-align: center;
     font-size: 20px;
     }
+    .contenedor-menu {
+        display: none;
+    }
+    .contenedor {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  margin-bottom: 20px;
+}
 }
 </style>
