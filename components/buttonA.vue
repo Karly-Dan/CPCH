@@ -48,7 +48,7 @@ export default {
         margin-top: 19px;
         margin-bottom: 20px;
         border: transparent;
-        background-color: #D90404;
+        background-color: #021373;
         color: white;
     }
     .contenido-b-a {
@@ -63,12 +63,11 @@ export default {
     .contenido-b-a {
         display: flex;
         justify-content: flex-end;
-        margin-top: -40px;
+        margin-top: -10px;
     }
     .button-a {
-        margin-bottom: -29px;
         margin-right: 20px;
-        background: #D90404;
+        background: #021373;
         border: transparent;
         color: white;
     }
