@@ -1,4 +1,8 @@
 export default {
+  server: {
+    port: 3001 // default: 3000
+  },
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Centro de Profesionalización de Capital Humano',
