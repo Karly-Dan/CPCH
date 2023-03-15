@@ -1,9 +1,9 @@
 <template>
   <div class="contenedor-barra">
-    <a class="contenido-barra" href="">Acerca de nosotros</a>
-    <a class="contenido-barra" href="">Contacto</a>
-    <a class="contenido-barra" href="">Misión y Visión</a>
-    <a class="contenido-barra" href="">Servicios</a>
+    <a class="contenido-barra" href="/acercaDeNosotros">Acerca de nosotros</a>
+    <a class="contenido-barra" href="/contacto">Contacto</a>
+    <a class="contenido-barra" href="/misionVision">Misión y Visión</a>
+    <a class="contenido-barra" href="/servicios">Servicios</a>
   </div>
 </template>
 

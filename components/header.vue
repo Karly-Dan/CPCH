@@ -8,10 +8,10 @@
             <input type="checkbox" id="menu" class="input-menu">
             <label class="label-menu" for="menu"> <img src="../assets/menu.png" alt="" style="filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);"> </label>
             <ul>
-                <li><a href=""></a>Acerca de nosotros</li>
-                <li><a href=""></a>Contacto</li>
-                <li><a href=""></a>Mision y Vision</li>
-                <li><a href=""></a>Servicios</li>
+                <li><a href="/acercaDeNosotros"></a>Acerca de nosotros</li>
+                <li><a href="/contacto"></a>Contacto</li>
+                <li><a href="/misionVision"></a>Mision y Vision</li>
+                <li><a href="/servicios"></a>Servicios</li>
             </ul>
         </nav>
     </div>
