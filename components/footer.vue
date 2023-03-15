@@ -28,6 +28,8 @@ export default {
     color: white;
     text-align: center;
     padding-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .redes {
   filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);
