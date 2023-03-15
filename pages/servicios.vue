@@ -1,6 +1,7 @@
 <template>
   <main>
     <header-vue/>
+    <barra-vue />
     <div>
         <div class="titulo-cursos">
             <h1>!Conoce nuestros cursos¡</h1>
@@ -25,12 +26,14 @@
 import cursosVue from '../components/cursos.vue'
 import footerVue from '../components/footer.vue'
 import headerVue from '../components/header.vue'
+import barraVue from '../components/barra.vue'
 
 export default {
     components: {
         headerVue,
         footerVue,
         cursosVue,
+        barraVue,
     }
 }
 </script>
@@ -38,6 +41,9 @@ export default {
 <style>
 body {
     margin: 0;
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
 }
 .titulo-cursos {
     text-align: center;
