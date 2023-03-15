@@ -1,6 +1,7 @@
 <template>
   <main>
     <header-vue/>
+    <barra-vue />
     <div class="contenido-valores">
       <div class="informacion">
         <h1>Vision</h1>
@@ -22,11 +23,13 @@
 <script>
 import footerVue from '../components/footer.vue'
 import headerVue from '../components/header.vue'
+import barraVue from '../components/barra.vue'
 
 export default {
     components: {
         headerVue,
         footerVue,
+        barraVue,
     }
 }
 </script>
@@ -34,6 +37,9 @@ export default {
 <style>
 body {
     margin: 0;
+}
+main {
+  font-family: Arial, Helvetica, sans-serif;
 }
 .contenido-valores {
   text-align: justify;
