@@ -117,13 +117,13 @@ li:hover {
     display: none;
   }
   .logo-red {
-      height: 77px;
+      height: 74px;
   }
   .logo-c {
     height: 50px;
   }
   .logo-capitalhumano {
-  height: 90px;  
+  height: 80px;  
   }
 }
 
@@ -148,12 +148,13 @@ li:hover {
     .contenedor-header {
       display: none;
     } 
+    
 }
 
 @media (min-width: 1024px) {
     .contenedor {
-        display: flex;
-        justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
     }
     .titulo-cpch {
     text-align: center;
