@@ -56,6 +56,13 @@ export default {
         justify-content: center;
     }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contenido-b-a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
 @media (min-width: 1024px) {
     .button-a {
         margin-top: 5px;
@@ -64,6 +71,7 @@ export default {
         display: flex;
         justify-content: flex-end;
         margin-top: -10px;
+        margin-bottom: 15px;
     }
     .button-a {
         margin-right: 20px;
@@ -71,6 +79,7 @@ export default {
         border: transparent;
         color: white;
     }
+    
     
 }
 </style>
