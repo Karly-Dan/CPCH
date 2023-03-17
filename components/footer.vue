@@ -36,15 +36,9 @@ export default {
   cursor: pointer;
 }
 
-@media (min-width: 776px) {
+@media (max-width: 776px) {
   .contenedor-footer {
     padding-top: 2px;
-  }
-  .direccion, .privacidad {
-    border-right: 2px solid white ;
-    border-left: 2px solid white;
-    padding-left: 12px;
-    padding-right: 12px;
   }
   .numero {
     padding-left: 12px;
@@ -57,4 +51,21 @@ export default {
     margin-top: 66px;
   }
 }
+@media (min-width: 1024px){
+    .direccion, .privacidad {
+    border-right: 2px solid white ;
+    border-left: 2px solid white;
+    padding-left: 12px;
+    padding-right: 12px;
+    }
+    .numero {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    .contenido-direccion {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
 </style>
