@@ -78,6 +78,14 @@ main {
   
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contenedor-i-p {
+        text-align: center;
+    }
+    
+}
+
+
 @media (min-width: 1024px) {
     .contenedor-informativo {
         display: flex;
