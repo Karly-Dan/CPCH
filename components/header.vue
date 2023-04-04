@@ -2,7 +2,7 @@
   <header>
     <div class="contenedor-header">
         <div class="div-czya">
-            <img src="../assets/logoCZYA.jpg" alt="" class="logo-c">
+          <h1 class="titulo-cpch1">CENTRO DE PROFESIONALIZACIÓN DE CAPITAL HUMANO</h1>
         </div>
         <nav class="contenedor-menu">
             <input type="checkbox" id="menu" class="input-menu">
@@ -15,13 +15,17 @@
             </ul>
         </nav>
     </div>
+    <div class="contenedor-titulo-tablet">
+      <h1 class="titulo-tablet">CENTRO DE PROFESIONALIZACIÓN DE CAPITAL HUMANO</h1>
+    </div>
     <div class="contenedor">
         <div class="div-cpch">
             <img src="../assets/logoCPCH.jpg" alt="" class="logo-capitalhumano">
-            <img src="../assets/logoCZYA.jpg" alt="" class="logo-conde">
+            <img src="../assets/logoCZYA.png" alt="" class="logo-conde">
         </div>
         <div>
             <h1 class="titulo-cpch">CENTRO DE PROFESIONALIZACIÓN DE CAPITAL HUMANO</h1>
+            <img src="../assets/logoCZYA.png" alt="" class="logo-c">
         </div>
         <div class="div-redconocer">
             <img src="../assets/logoRC.jpg" alt="" class="logo-red">
@@ -103,10 +107,21 @@ li:hover {
 @media (max-width: 776px) {
   .contenedor {
     display: flex;
+    justify-content: center;
   }
   .titulo-cpch {
     text-align: center;
     font-size: 12px;
+    display: none;
+  }
+  .titulo-cpch1 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+  }
+  .logo-c {
+    height: 70px;
   }
   .contenedor {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
@@ -119,11 +134,11 @@ li:hover {
   .logo-red {
       height: 74px;
   }
-  .logo-c {
-    height: 50px;
-  }
   .logo-capitalhumano {
   height: 80px;  
+  }
+  .contenedor-titulo-tablet {
+    display: none;
   }
 }
 
@@ -141,6 +156,7 @@ li:hover {
     }
     .titulo-cpch {
       text-align: center;
+      display: none;
     }
     .logo-conde {
       display: none;
@@ -148,6 +164,19 @@ li:hover {
     .contenedor-header {
       display: none;
     } 
+    .logo-c {
+      height: 95px;
+    }
+    .contenedor-titulo-tablet {
+      margin: 0;
+      text-align: center;
+      background-color: #021373;
+      color: white;
+      padding: 1px;
+    }
+    .titulo-tablet {
+      font-size: 20px;
+    }
     
 }
 
@@ -180,6 +209,12 @@ li:hover {
     .logo-capitalhumano {
       padding: 4px;
       height: 102px;
+    }
+    .logo-c {
+      display: none;
+    }
+    .contenedor-titulo-tablet {
+      display: none;
     }
 }
 </style>
