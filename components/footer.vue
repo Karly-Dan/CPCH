@@ -50,6 +50,9 @@ export default {
   .contenedor-footer {
     margin-top: 66px;
   }
+  .direccion {
+    padding: 4px;
+  }
 }
 @media (min-width: 1024px){
     .direccion, .privacidad {
