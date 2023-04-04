@@ -82,14 +82,18 @@ main {
     .contenedor-i-p {
         text-align: center;
     }
-    
+    .texto-informativo {
+        width: 95%;
+        text-align: justify;
+        margin: auto;
+    }
 }
 
 
 @media (min-width: 1024px) {
     .contenedor-informativo {
         display: flex;
-        height: 436px;
+        height: 481px;
     }
     .texto-informativo {
         height: 311px;
