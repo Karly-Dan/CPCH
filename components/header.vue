@@ -8,10 +8,10 @@
             <input type="checkbox" id="menu" class="input-menu">
             <label class="label-menu" for="menu"> <img src="../assets/menu.png" alt=""  class="menu-lista" style="filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);"> </label>
             <ul>
-                <li><a href="/acercaDeNosotros"></a>Acerca de nosotros</li>
-                <li><a href="/contacto"></a>Contacto</li>
-                <li><a href="/misionVision"></a>Mision y Vision</li>
-                <li><a href="/servicios"></a>Servicios</li>
+                <a href="/acercaDeNosotros" class="list">Acerca de nosotros</a>
+                <a href="/contacto" class="list">Contacto</a>
+                <a href="/misionVision" class="list">Mision y Vision</a>
+                <a href="/servicios" class="list">Servicios</a>
             </ul>
         </nav>
     </div>
@@ -43,7 +43,13 @@
     display: flex;
     justify-content: space-between;
 }
-
+.list {
+  color: white;
+  text-decoration: none;
+}
+.contenedor-menu {
+  margin-bottom: 10px;
+}
 .div-cpch {
     background-color: white;
 }
@@ -58,7 +64,7 @@
 .menu-lista {
   padding-top: 8px;
 }
-.a-menu {
+.list-menu {
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -91,7 +97,7 @@ ul{
   padding: 0;
   width: 200px;
 }
-li {
+.list {
   display: block;
   background: #021373;
   margin: 0;
@@ -101,7 +107,7 @@ li {
   color: white;
   float: inline-end;
 }
-li:hover {
+.list:hover {
   filter: brightness(110%);
 }
 @media (max-width: 776px) {
