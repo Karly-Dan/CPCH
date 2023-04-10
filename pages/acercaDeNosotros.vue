@@ -49,6 +49,13 @@ main {
     margin: auto;
   }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .texto-nosotros {
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+  }
+}
 @media (min-width: 1024px) {
   .texto-nosotros {
     width: 80%;
