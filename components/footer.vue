@@ -3,7 +3,7 @@
     <div class="contenido-direccion">
         <p class="direccion">Av. Camino a la presa #6, San Isidro la Paz, Nicolás Romero, Edo. Méx. C.P. 54477</p>
         <p class="numero">55-1254-5494</p>
-        <p class="privacidad">Avisos de Privacidad</p>
+        <a href="/privacidad" class="privacidad">Avisos de Privacidad</a>
     </div>
     <div class="redes">
         <a href="https://web.whatsapp.com/"><img src="../assets/whatsapp.png" alt="whats"></a>
@@ -35,7 +35,12 @@ export default {
   filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);
   cursor: pointer;
 }
-
+.privacidad {
+  color: white;
+}
+.redes {
+  margin-top: 15px;
+}
 @media (max-width: 776px) {
   .contenedor-footer {
     padding-top: 2px;
@@ -68,6 +73,10 @@ export default {
     .contenido-direccion {
       display: flex;
       justify-content: center;
+    }
+    .privacidad {
+      margin-top: auto;
+      margin-bottom: auto;
     }
   }
 
