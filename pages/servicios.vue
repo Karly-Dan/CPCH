@@ -2,7 +2,7 @@
   <main>
     <header-vue/>
     <barra-vue />
-    <div>
+    <div class="contenedor-curso">
         <div class="titulo-cursos">
             <h1>!Conoce nuestros cursos¡</h1>
         </div>
@@ -47,6 +47,12 @@ main {
 }
 .titulo-cursos {
     text-align: center;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contenedor-tarjetas {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media (min-width: 1024px) {
