@@ -1,5 +1,6 @@
 <template>
   <div class="contenedor-barra">
+    <a class="contenido-barra" href="/">Inicio</a>
     <a class="contenido-barra" href="/acercaDeNosotros">Acerca de nosotros</a>
     <a class="contenido-barra" href="/contacto">Contacto</a>
     <a class="contenido-barra" href="/misionVision">Misión y Visión</a>
@@ -13,6 +14,14 @@ export default {
 </script>
 
 <style>
+.contenedor-barra a:hover {
+    color: #df612a;
+}
+
+.contenedor-barra a:active {
+    color: red;
+}
+
 .contenedor-barra {
     background-color: #021373;
     display: flex;
