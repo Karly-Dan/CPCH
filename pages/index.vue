@@ -35,6 +35,7 @@ import buttonAVue from '../components/buttonA.vue'
 import footerVue from '../components/footer.vue'
 import headerVue from '../components/header.vue'
 
+
 export default {
     components: {
         barraVue,
@@ -57,9 +58,6 @@ main {
     height: 2px;
     background-color: black;
 }
-
-
-
 @media (max-width: 776px) {
   .texto-informativo {
     width: 90%;
@@ -75,7 +73,6 @@ main {
     margin-right: auto;
     display: block;
   }
-  
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -106,6 +103,5 @@ main {
     .descripcion-del-texto {
         padding-right: 45px;
     }
-   
 }
 </style>
