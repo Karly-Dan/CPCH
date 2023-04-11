@@ -7,9 +7,9 @@
     </div>
     <div class="redes">
         <a href="https://web.whatsapp.com/"><img src="../assets/whatsapp.png" alt="whats"></a>
-        <a href="https://www.facebook.com/"><img src="../assets/facebook(1).png" alt="facebook"></a>
+        <a href="https://www.facebook.com/people/Centro-de-Profesionalizaci%C3%B3n-de-Capital-Humano/100086499862025/?mibextid=ZbWKwL"><img src="../assets/facebook(1).png" alt="facebook"></a>
         <a href="https://twitter.com/?lang=es"><img src="../assets/twitter.png" alt="twiter"></a>
-        <a href="https://www.instagram.com/"><img src="../assets/instagram.png" alt=""></a>
+        <a href="https://www.instagram.com/cpch._/?igshid=ZDdkNTZiNTM%3D"><img src="../assets/instagram.png" alt=""></a>
         <a href="https://www.google.com/?hl=es"><img src="../assets/google-mas.png" alt="google"></a>
         <a href="https://mx.linkedin.com/"><img src="../assets/linkedin.png" alt="linked"></a>
         <a href="https://www.youtube.com/"><img src="../assets/youtube(1).png" alt="youtube"></a>
