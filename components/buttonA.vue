@@ -70,7 +70,7 @@ export default {
     .contenido-b-a {
         display: flex;
         justify-content: flex-end;
-        margin-top: -95px;
+        margin-top: -180px;
         margin-bottom: 15px;
     }
     .button-a {
