@@ -64,5 +64,8 @@ main {
     .contenedor-curso {
         height: 650px;
     }
+    .contenedor-cursos {
+        height: 450px;
+    }
 }
 </style>
