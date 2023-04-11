@@ -60,7 +60,9 @@ main {
         margin: auto;
         display: flex;
         justify-content: space-around;
-        height: 435px;
+    }
+    .contenedor-curso {
+        height: 650px;
     }
 }
 </style>
