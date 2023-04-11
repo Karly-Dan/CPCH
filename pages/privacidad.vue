@@ -1,11 +1,31 @@
 <template>
   <main>
     <header-vue />
-    <h1 class="titulo-AP">Aviso de Privacidad</h1>
+    <h1 class="titulo-AP">AVISO DE PRIVACIDAD SIMPLIFICADO</h1>
     <div class="contenedor-AP">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus perferendis quae aut ex! Dolorem consequuntur sunt fugit voluptatem deleniti optio veniam repellat commodi, aperiam similique, nulla deserunt! Architecto, consequuntur quibusdam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quae in voluptatum dolorum, excepturi repellat illum dolorem soluta eaque similique sed incidunt! Doloremque tempore laborum distinctio necessitatibus eveniet nostrum labore?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium culpa aperiam quae atque hic commodi maiores nam necessitatibus molestiae suscipit obcaecati a, blanditiis quidem reprehenderit dolorum et aliquam debitis autem!</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis perspiciatis perferendis, vel similique aliquam consequuntur. Voluptas eligendi voluptatem deserunt ipsum reprehenderit accusamus incidunt fugit, expedita, fugiat et sequi id Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam animi quos nobis at cupiditate, beatae exercitationem asperiores in eius et ad ducimus assumenda totam autem perferendis recusandae iste quam quisquam?</p>
+      <p>El Centro de Profesionalización de Capital Humano (CPCH), con domicilio en calle Camino a la Presa Mza.1 Lote 6, San Isidro La Paz, Nicolás Romero, Estado de México, 54477, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:
+      Los datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades que son necesarias para el servicio que solicita: 
+      </p>
+      <b>
+        <li>Establecer contacto con usted</li> 
+        <li>Realizar el registro de las personas interesadas en participar en las Certificaciones de Competencia Laboral.</li>
+        <li>Enviar mensaje de Aceptación del curso de capacitación.</li>
+        <li>Realizar la lista de asistencia al curso de capacitación.</li>
+        <li>Enviar la Constancia de Participación en la Certificación de Competencia Laboral. </li>
+        <li>Realizar el Registro en la página del Consejo de Normalización y Certificación de Competencias Laborales (CONOCER), en caso de resultar competente para obtener su Certificado de Competencia Laboral. </li>
+      </b>
+      <p>De manera adicional, utilizaremos su información personal para las siguientes finalidades que <b> no son necesarias</b> para el servicio solicitado, pero que nos permiten y facilitan brindarle una mejor atención: </p>
+      <b>
+        <li>Informar sobre nuevos estándares de competencia laboral. </li>
+      </b>
+      <p>En caso de que no desee que sus datos personales sean tratados para estos fines adicionales, desde este momento usted nos puede comunicar lo anterior, No consiento que mis datos personales se utilicen para los siguientes fines:
+      <br><br>
+      Establecer contacto. <br> 
+      Informar sobre nuevos estándares de competencia laboral. 
+      <br><br>
+      La negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le neguemos los servicios que solicita o contrata con nosotros.
+      Para conocer mayor información sobre los términos y condiciones en que serán tratados sus datos personales, como los terceros con quienes compartimos su información personal y la forma en que podrá ejercer sus derechos ARCO (Derechos de acceso, rectificación, cancelación y oposición o la revocación del consentimiento), puede consultar el aviso de privacidad integral en <b>cza.cevaluacion@gmail.com</b> o a los siguientes números telefónicos 55 21685290, 55 12543594.
+      </p>
     </div>
   </main>
 </template>
@@ -36,11 +56,29 @@ main {
 }
 .titulo-AP {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 .contenedor-AP {
-  width: 95%;
   text-align: justify;
   margin: auto;
+}
+
+@media (max-width: 776px) {
+  .contenedor-AP {
+    width: 85%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contenedor-AP {
+    width: 90%;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .contenedor-AP {
+    width: 65%;
+  }
 }
 </style>
