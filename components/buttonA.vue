@@ -65,7 +65,7 @@ export default {
 }
 @media (min-width: 1024px) {
     .button-a {
-        margin-top: 5px;
+        margin-top: 100px;
     }
     .contenido-b-a {
         display: flex;
