@@ -8,13 +8,13 @@
         </div>
         <div class="contenedor-tarjetas">
             <cursos-vue
-            titulo="Introduccion del curso"
+            titulo="ECO217.01 Impartición de cursos de formación del capital humano de manera presencial grupal"
             />
             <cursos-vue
-            titulo="Introduccion del intermedio"
+            titulo="ECO154 Prestación de los servicios de limpieza"
             />
             <cursos-vue
-            titulo="Introduccion del avanzado"
+            titulo="Microsoft"
             />
         </div>
     </div>
@@ -48,6 +48,7 @@ main {
 .titulo-cursos {
     text-align: center;
 }
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .contenedor-tarjetas {
         display: flex;
