@@ -37,6 +37,8 @@ export default {
 }
 .texto-tarjeta {
     text-align: center;
+    font-size: 20px;
+    padding: 5px;
 }
 .button-tarjeta {
     width: 190px;
