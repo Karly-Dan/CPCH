@@ -4,7 +4,7 @@
     <barra-vue />
     <div>
       <div class="titulo-nosotros">
-        <h1>Acerca de Nosotros</h1>
+        <h1>Nuestros Clientes</h1>
       </div>
       <div class="texto-nosotros">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsam culpa laudantium, qui aut hic minus natus iure unde delectus optio veniam dignissimos esse sunt saepe repellendus eum quidem distinctio! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi culpa consequuntur impedit mollitia laudantium quas vitae voluptas tenetur animi molestiae voluptate, distinctio saepe dolores porro facilis, iste, doloribus est modi!</p>
