@@ -9,10 +9,10 @@
             <label class="label-menu" for="menu"> <img src="../assets/menu.png" alt=""  class="menu-lista" style="filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);"> </label>
             <ul>
               <a href="/" class="list">Inicio</a>
-              <a href="/acercaDeNosotros" class="list">Acerca de nosotros</a>
-              <a href="/contacto" class="list">Contacto</a>
-              <a href="/misionVision" class="list">Mision y Vision</a>
+              <a href="/misionVision" class="list">Acerca de nosotros</a>
               <a href="/servicios" class="list">Servicios</a>
+              <a href="/acercaDeNosotros" class="list">Nuestros Clientes</a>
+              <a href="/contacto" class="list">Contacto</a>
             </ul>
         </nav>
     </div>
