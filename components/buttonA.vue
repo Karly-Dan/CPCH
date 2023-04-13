@@ -39,6 +39,11 @@ export default {
     padding-top: 10px;
     text-align: center;
 }
+.button-a:hover {
+    background-color: #df612a;
+    color: white;
+    border-color: transparent;
+}
 .contenido-b-a {
     display: flex;
     margin: auto;
@@ -64,14 +69,10 @@ export default {
     }
 }
 @media (min-width: 1024px) {
-    .button-a {
-        margin-top: 185px;
-    }
     .contenido-b-a {
         display: flex;
-        justify-content: flex-end;
-        margin-top: -180px;
-        margin-bottom: 15px;
+        justify-content: center;
+        padding: 15px;
     }
     .button-a {
         margin-right: 20px;
