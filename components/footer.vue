@@ -52,9 +52,6 @@ export default {
   .redes {
     padding-bottom: 10px;
   }
-  .contenedor-footer {
-    margin-top: 66px;
-  }
   .direccion {
     padding: 4px;
   }
