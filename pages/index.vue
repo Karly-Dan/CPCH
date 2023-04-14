@@ -2,6 +2,16 @@
   <main>
     <header-vue />
     <barra-vue />
+
+    <div>
+        <VueSlickCarousel :arrows="false" :dots="true" autoplay style="text-align: center;">
+        <img src="../assets/pruebaimg2.jpg" alt="imagen" class="imagen-principal">
+        <img src="../assets/pruebaimg3.jpg" alt="imagen" class="imagen-principal">
+        <img src="../assets/pruebaimg4.jpg" alt="imagen" class="imagen-principal">
+        <img src="../assets/pruebaimg5.jpg" alt="imagen" class="imagen-principal">
+        </VueSlickCarousel>
+    </div>
+
     <div class="contenedor-informativo">
         <div class="texto-informativo">
             <h1 class="titulo-informativo">EC0217.01 Impartición de cursos de formación del capital humano de manera presencial grupal</h1>
@@ -14,9 +24,6 @@
                 <br>
                 El presente EC actualiza al EC0217 “Impartición de cursos de formación del capital humano de manera presencial grupal”, publicado en el Diario Oficial de la Federación el 6 de julio de 2012.
             </p>
-        </div>
-        <div class="contenedor-i-p">
-            <img src="../assets/administradora.jpg" alt="imagen" class="imagen-principal">
         </div>
     </div>
     <div class="div-button">
@@ -34,7 +41,9 @@ import barraVue from '../components/barra.vue'
 import buttonAVue from '../components/buttonA.vue'
 import footerVue from '../components/footer.vue'
 import headerVue from '../components/header.vue'
-
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
     components: {
@@ -42,6 +51,7 @@ export default {
         buttonAVue,
         headerVue,
         footerVue,
+        VueSlickCarousel,
     },
 }
 </script>
@@ -88,17 +98,16 @@ main {
 
 
 @media (min-width: 1024px) {
-    .contenedor-informativo {
-        display: flex;
-        height: 481px;
-    }
     .texto-informativo {
-        height: 311px;
-        width: 64%;
+        width: 85%;
+        margin: auto;
+        text-align: justify;
         padding-left: 10px;
     }
     .imagen-principal {
-        margin-top: 23px;
+        width: auto;
+        object-fit: scale-down;
+        height: 300px;
     }
     .descripcion-del-texto {
         padding-right: 45px;
