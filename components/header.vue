@@ -183,6 +183,7 @@ ul{
     }
     .titulo-tablet {
       font-size: 20px;
+      color: white;
     }
     
 }

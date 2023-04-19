@@ -13,22 +13,26 @@
     </div>
 
     <div class="contenedor-informativo">
+        <div class="texto-principal">
+            <p style="color: #021373; font-weight: bold;">BIENVENIDOS</p>
+            <b style="font-size: 35px; color: #4B4749;"> Al Centro de Capacitación y Profesionalización de Capital Humano.</b><br><br>
+             <div class="div-button">
+            <button-a-vue
+            nombre="Registrate"
+            href="https://eco2017.cpcapitalhumano.com.mx/" 
+            />
+    </div>
+        </div>
         <div class="texto-informativo">
-            <h1 class="titulo-informativo">EC0217.01 Impartición de cursos de formación del capital humano de manera presencial grupal</h1>
             <p class="descripcion-del-texto">
-                En el Centro de Capacitación y Profesionalización de Capital Humano, somos una organización dedicada a la capacitación, certificación en competencias laborales y Microsoft, bajo estándares de calidad.
+                Somos una organización dedicada a la capacitación, certificación en competencias laborales y Microsoft, bajo estándares de calidad.
                 Desarrollando diferentes metodologías de aprendizaje, en diversas áreas del sector productivo, a fin de cubrir las necesidades específicas de especialización del trabajador para el logro de los objetivos de su organización, generando conjuntamente en los empleados un plan de vida y carrera.
                 Nuestros instructores cuentan con amplia experiencia en docencia e industria, todos ellos certificados.
-                Los programas pueden adecuarse a las necesidades de cada organización.
+                Los programas pueden adecuarse a las necesidades de cada organización. 
             </p>
         </div>
     </div>
-    <div class="div-button">
-        <button-a-vue
-        nombre="Registrate"
-        href="https://eco2017.cpcapitalhumano.com.mx/" 
-        />
-    </div>
+   
     <footer-vue />
   </main>
 </template>
@@ -80,6 +84,12 @@ main {
     margin-right: auto;
     display: block;
   }
+  .texto-principal {
+        text-align: center;
+    }
+    .descripcion-del-texto {
+        line-height: 30px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -90,6 +100,12 @@ main {
         width: 95%;
         text-align: justify;
         margin: auto;
+    }
+    .texto-principal {
+        text-align: center;
+    }
+    .descripcion-del-texto {
+        line-height: 30px;
     }
 }
 
@@ -103,11 +119,19 @@ main {
     }
     .descripcion-del-texto {
         padding-right: 45px;
+        line-height: 30px;
     }
     .imagen-carrusel {
         width: auto;
         object-fit: scale-down;
         height: 300px;
+    }
+    .contenedor-informativo {
+        display: flex;
+        text-align: center;
+    }
+    .texto-principal {
+        padding-top: 30px;
     }
 }
 </style>

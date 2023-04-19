@@ -1,7 +1,7 @@
 <template>
   <main>
     <header-vue />
-    <h1 class="titulo-AP">AVISO DE PRIVACIDAD SIMPLIFICADO</h1>
+    <h1 class="titulo-AP">AVISO DE PRIVACIDAD</h1>
     <div class="contenedor-AP">
       <p>El Centro de Profesionalización de Capital Humano (CPCH), con domicilio en calle Camino a la Presa Mza.1 Lote 6, San Isidro La Paz, Nicolás Romero, Estado de México, 54477, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:
       Los datos personales que recabamos de usted, los utilizaremos para las siguientes finalidades que son necesarias para el servicio que solicita: 

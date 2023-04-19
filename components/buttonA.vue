@@ -22,7 +22,7 @@ export default {
 <style>
 .button-a {
     color: #0d0d0d; 
-    border: 2px solid #021373;
+    border: 2px solid #df612a;
     background-color: white;
     cursor: pointer;
     border-radius: 3px;
@@ -40,7 +40,7 @@ export default {
     text-align: center;
 }
 .button-a:hover {
-    background-color: #df612a;
+    background-color: #021373;
     color: white;
     border-color: transparent;
 }
@@ -53,7 +53,7 @@ export default {
         margin-top: 19px;
         margin-bottom: 20px;
         border: transparent;
-        background-color: #021373;
+        background-color: #df612a;
         color: white;
     }
     .contenido-b-a {
@@ -67,6 +67,11 @@ export default {
         justify-content: center;
         margin-bottom: 20px;
     }
+    .button-a {
+        background: #df612a;
+        border: transparent;
+        color: white;
+    }
 }
 @media (min-width: 1024px) {
     .contenido-b-a {
@@ -75,8 +80,7 @@ export default {
         padding: 15px;
     }
     .button-a {
-        margin-right: 20px;
-        background: #021373;
+        background: #df612a;
         border: transparent;
         color: white;
     }

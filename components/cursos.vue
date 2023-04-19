@@ -31,7 +31,6 @@ export default {
 <style>
 .contenedor-cursos {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    width: 26%;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -56,9 +55,18 @@ export default {
 
     }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contenedor-cursos {
+        width: 28%;
+        margin-right: 20px;
+    }
+}
 @media (min-width: 1024px) {
     .button-tarjeta {
         margin-top: 30px;
+    }
+    .contenedor-cursos {
+        width: 40%;
     }
 }
 </style>
