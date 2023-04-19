@@ -11,7 +11,7 @@
               <a href="/" class="list">Inicio</a>
               <a href="/misionVision" class="list">Acerca de nosotros</a>
               <a href="/servicios" class="list">Servicios</a>
-              <a href="/acercaDeNosotros" class="list">Nuestros Clientes</a>
+              <a href="/clientes" class="list">Nuestros Clientes</a>
               <a href="/contacto" class="list">Contacto</a>
             </ul>
         </nav>

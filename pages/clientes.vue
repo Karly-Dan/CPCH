@@ -2,7 +2,7 @@
   <main>
     <header-vue/>
     <barra-vue />
-    <div>
+    <div style="width: 85%; margin: auto;">
       <div class="titulo-nosotros">
         <h1>Algunos de Nuestros Clientes</h1>
       </div>
