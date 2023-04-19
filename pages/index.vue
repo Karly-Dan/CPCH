@@ -3,26 +3,23 @@
     <header-vue />
     <barra-vue />
 
-    <div>
+    <div class="contenedor-carrusel">
         <VueSlickCarousel :arrows="false" :dots="true" autoplay style="text-align: center;">
-        <img src="../assets/pruebaimg2.jpg" alt="imagen" class="imagen-principal">
-        <img src="../assets/pruebaimg3.jpg" alt="imagen" class="imagen-principal">
-        <img src="../assets/pruebaimg4.jpg" alt="imagen" class="imagen-principal">
-        <img src="../assets/pruebaimg5.jpg" alt="imagen" class="imagen-principal">
+        <img src="../assets/pruebaimg2.jpg" alt="imagen" class="imagen-carrusel">
+        <img src="../assets/pruebaimg3.jpg" alt="imagen" class="imagen-carrusel">
+        <img src="../assets/pruebaimg4.jpg" alt="imagen" class="imagen-carrusel">
+        <img src="../assets/pruebaimg5.jpg" alt="imagen" class="imagen-carrusel">
         </VueSlickCarousel>
     </div>
 
     <div class="contenedor-informativo">
         <div class="texto-informativo">
             <h1 class="titulo-informativo">EC0217.01 Impartición de cursos de formación del capital humano de manera presencial grupal</h1>
-            <p class="descripcion-del-texto">Descripción del Estándar de Competencia:
-                El estándar de competencia impartición de cursos de formación del capital humano de manera presencial y grupal contempla las funciones sustantivas de preparar, conducir y evaluar cursos de capacitación. Preparar la sesión mediante la planeación de la sesión y la comprobación de la existencia y el funcionamiento de los recursos requeridos para la sesión. Conducir la sesión realizando el encuadre, desarrollo y cierre, empleando técnicas instruccionales y grupales que faciliten el proceso de aprendizaje. Evaluar el aprendizaje antes, durante y al final del curso, considerando la satisfacción de los participantes/capacitandos.
-                <br>
-                <br>
-                El presente EC se fundamenta en criterios rectores de legalidad, competitividad, libre acceso, respeto, trabajo digno y responsabilidad social.
-                <br>
-                <br>
-                El presente EC actualiza al EC0217 “Impartición de cursos de formación del capital humano de manera presencial grupal”, publicado en el Diario Oficial de la Federación el 6 de julio de 2012.
+            <p class="descripcion-del-texto">
+                En el Centro de Capacitación y Profesionalización de Capital Humano, somos una organización dedicada a la capacitación, certificación en competencias laborales y Microsoft, bajo estándares de calidad.
+                Desarrollando diferentes metodologías de aprendizaje, en diversas áreas del sector productivo, a fin de cubrir las necesidades específicas de especialización del trabajador para el logro de los objetivos de su organización, generando conjuntamente en los empleados un plan de vida y carrera.
+                Nuestros instructores cuentan con amplia experiencia en docencia e industria, todos ellos certificados.
+                Los programas pueden adecuarse a las necesidades de cada organización.
             </p>
         </div>
     </div>
@@ -104,13 +101,13 @@ main {
         text-align: justify;
         padding-left: 10px;
     }
-    .imagen-principal {
+    .descripcion-del-texto {
+        padding-right: 45px;
+    }
+    .imagen-carrusel {
         width: auto;
         object-fit: scale-down;
         height: 300px;
-    }
-    .descripcion-del-texto {
-        padding-right: 45px;
     }
 }
 </style>
