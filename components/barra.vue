@@ -3,7 +3,7 @@
     <a class="contenido-barra" href="/">Inicio</a>
     <a class="contenido-barra" href="/misionVision">Nosotros</a>
     <a class="contenido-barra" href="/servicios">Servicios</a>
-    <a class="contenido-barra" href="/acercaDeNosotros">Nuestros Clientes</a>
+    <a class="contenido-barra" href="/clientes">Nuestros Clientes</a>
     <a class="contenido-servicio" href="/contacto">Contacto</a>
   </div>
 </template>
