@@ -6,16 +6,16 @@
         <a href="/privacidad" class="privacidad">Avisos de Privacidad</a>
     </div>
     <div class="redes">
-        <a href="https://web.whatsapp.com/"><img src="../assets/whatsapp.png" alt="whats"></a>
-        <a href="https://www.facebook.com/people/Centro-de-Profesionalizaci%C3%B3n-de-Capital-Humano/100086499862025/?mibextid=ZbWKwL"><img src="../assets/facebook(1).png" alt="facebook"></a>
-        <a href="https://twitter.com/?lang=es"><img src="../assets/twitter.png" alt="twiter"></a>
-        <a href="https://www.instagram.com/cpch._/?igshid=ZDdkNTZiNTM%3D"><img src="../assets/instagram.png" alt=""></a>
-        <a href="https://www.google.com/?hl=es"><img src="../assets/google-mas.png" alt="google"></a>
-        <a href="https://mx.linkedin.com/"><img src="../assets/linkedin.png" alt="linked"></a>
-        <a href="https://www.youtube.com/"><img src="../assets/youtube(1).png" alt="youtube"></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><img src="../assets/whatsapp.png" alt="whats"></a>
+        <a href="https://www.facebook.com/people/Centro-de-Profesionalizaci%C3%B3n-de-Capital-Humano/100086499862025/?mibextid=ZbWKwL" target="_blank"><img src="../assets/facebook(1).png" alt="facebook"></a>
+        <a href="https://twitter.com/?lang=es" target="_blank"><img src="../assets/twitter.png" alt="twiter"></a>
+        <a href="https://www.instagram.com/cpch._/?igshid=ZDdkNTZiNTM%3D" target="_blank"><img src="../assets/instagram.png" alt=""></a>
+        <a href="https://www.google.com/?hl=es" target="_blank"><img src="../assets/google-mas.png" alt="google"></a>
+        <a href="https://mx.linkedin.com/" target="_blank"><img src="../assets/linkedin.png" alt="linked"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="../assets/youtube(1).png" alt="youtube"></a>
     </div>
   </div>
-</template>
+</template>0
 
 <script>
 export default {
