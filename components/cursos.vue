@@ -66,7 +66,7 @@ export default {
         margin-top: 30px;
     }
     .contenedor-cursos {
-        width: 40%;
+        width: 26%;
     }
 }
 </style>
