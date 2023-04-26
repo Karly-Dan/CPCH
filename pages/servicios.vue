@@ -274,6 +274,7 @@ main {
         padding: 14px;
         justify-content: space-evenly;
         border-radius: 50px;
+        background-image: linear-gradient(109.6deg,#dfeaf7 11.2%,#f4f8fc 91.1%);
     }
     .imagen-certificacion {
         display: block;
