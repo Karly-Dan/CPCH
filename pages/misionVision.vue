@@ -5,23 +5,41 @@
     <div class="contenido-valores">
       <div class="mision">
         <div class="texto-mision">
-          <h1>Misión</h1>
+          <img src="../assets/mision(1).png" alt="" class="img-valores">
+          <h1 class="titulo">Misión</h1>
+        </div>
+        <div class="parrafos">
           <p>Ofrecer servicios de capacitación, evaluación y certificación de competencias para el trabajo en diversas especialidades, de acuerdo a las necesidades del sector productivo y público en general.</p>
         </div>
-        <div>
-          <img src="../assets/img-nosotros.jpg" alt="" class="imagen-mision">
-        </div>
       </div>
+
       <div class="vision">
         <div class="texto-vision">
-        <h1>Visión</h1>
-        <p>Ser un Centro de Formación para el trabajo que brinde servicios de calidad a nivel regional, nacional e internacional, utilizando diferentes metodologías para un aprendizaje significativo, 
-        contribuyendo al fortalecimiento y productividad de las organizaciones y de las personas, siendo reconocidos por nuestra excelencia.</p>
+        <img src="../assets/objetivo.png" alt="" class="img-valores">
+        <h1 class="titulo">Visión</h1>
         </div>
-        <div>
-          <img src="../assets/img-vision.jpg" alt="" class="imagen-vision">
+        <div class="parrafos">
+          <p>Ser un Centro de Formación para el trabajo que brinde servicios de calidad a nivel regional, nacional e internacional, utilizando diferentes metodologías para un aprendizaje significativo, 
+          contribuyendo al fortalecimiento y productividad de las organizaciones y de las personas, siendo reconocidos por nuestra excelencia.</p>
         </div>
       </div>
+
+      <div class="valores">
+        <div class="texto-valores">
+          <img src="../assets/valor.png" alt="" class="img-valores">
+          <h1 class="titulo">Valores</h1>
+        </div>
+        <div class="parrafos">
+          <li>Responsabilidad</li>
+          <li>Compromiso</li>
+          <li>Honestidad</li>
+          <li>Trabajo en equipo</li>
+          <li>Respeto</li>
+        </div>
+      </div>
+      </div>
+
+    
       <div class="objetivo">
         <div class="texto-objetivo"> 
           <h1>Objetivo</h1>
@@ -29,22 +47,11 @@
           para el trabajo y aspirar con esto, a un desempeño laboral de calidad, fortaleciendo su competitividad profesional</p>
         </div>
         <div>
-          <img src="../assets/img-objetivo.jpg" alt="" class="imagen-objetivo">
+          <img src="../assets/bombilla.png" alt="" class="imagen-objetivo">
         </div>
       </div>
-      <div class="valores">
-        <div class="texto-valores">
-          <h1>Valores</h1>
-          <li>Responsabilidad</li>
-          <li>Compromiso</li>
-          <li>Honestidad</li>
-          <li>Trabajo en equipo</li>
-          <li>Respeto</li>
-        </div>
-        <div>
-          <img src="../assets/img-valores.jpg" alt="" class="imagen-valores">
-        </div>
-      </div>
+
+      <div class="contenedor-beneficios">
       <div class="beneficios-empresa">
         <div class="texto-empresa">
           <h1>Beneficios para las empresas</h1>
@@ -58,7 +65,7 @@
           <li style="line-height: 30px;">Reducir los costos de producción y de operación.</li>
         </div>
         <div class="contenedor-empresa">
-          <img src="../assets/img-empresa.jpg" alt="" class="imagen-empresa">
+          <img src="" alt="" class="imagen-empresa">
         </div>
       </div>
       <div class="beneficios-empleados">
@@ -70,13 +77,10 @@
           <li style="line-height: 30px;">Incremento de su motivación y desempeño laboral.</li>
         </div>
         <div class="contenedor-empleados">
-          <img src="../assets/img-empleados.jpg" alt="" class="imagen-empleados">
+          <img src="" alt="" class="imagen-empleados">
         </div>
       </div>
-    </div>
-      
-      
-      
+      </div>
     <footer-vue/>
   </main>
 </template>
@@ -102,172 +106,178 @@ body {
 main {
   font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
-  color: #4b4749;
-  font-size: 50px;
+.mision, .vision, .objetivo, .valores {
+  line-height: 30px;
+}
+.objetivo {
+  background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+  padding: 20px;
 }
 @media (max-width: 776px) {
-  .imagen-mision, .imagen-vision, .imagen-valores, .imagen-objetivo, .imagen-empresa, .imagen-empleados {
-    height: 200px;
+  .contenido-valores {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
   }
-  .imagen-mision, .imagen-empresa {
-    border-radius: 25% 10%;
+  .texto-mision, .texto-vision, .texto-valores {
+    display: block ruby;
+    padding: 20px;
+    border-bottom: 2px solid #85aeee;
+
   }
-  .imagen-vision, .imagen-empleados {
-    border-radius: 10% 30% 50% 70%;
+  .titulo {
+    margin: 0;
+    letter-spacing: -0.03em;
+    font-size: 24px;
+  }
+  .parrafos {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #7e8aa7;
+  }
+  .objetivo {
+    width: 85%;
+    margin: auto;
+    border-radius: 55px;
+    color: #7e8aa7;
+    margin-bottom: 50px;
   }
   .imagen-objetivo {
-    border-radius: 10px 100px / 120px;
+    text-align: center;
   }
-  .imagen-valores {
-    border-radius: 50% 20% / 10% 40%;
-  }
-  .contenido-valores {
+  .contenedor-beneficios {
     width: 85%;
     margin: auto;
   }
-  .mision, .vision, .objetivo, .valores {
-    line-height: 30px;
+  .beneficios-empresa {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+    color: #5f5f5f;
+    margin-bottom: 50px;
+  }
+  .beneficios-empleados {
+    padding: 28px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #5f5f5f;
+    margin-bottom: 50px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  .imagen-mision, .imagen-vision, .imagen-valores, .imagen-objetivo {
-    height: 250px;
-  }
-  .imagen-empresa {
-    height: 400px;
-  }
-  .contenedor-empresa {
-    text-align: center;
-  }
-  .imagen-mision, .imagen-empresa {
-    border-radius: 25% 10%;
-    padding-top: 20px;
-  }
-  .imagen-vision, .imagen-empleados {
-    border-radius: 10% 30% 50% 70%;
-    padding-top: 25px;
-  }
-  .imagen-objetivo {
-    border-radius: 10px 100px / 120px;
-  }
-  .imagen-valores {
-    border-radius: 50% 20% / 10% 40%;
-  }
   .contenido-valores {
-    padding: 35px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
   }
-  .mision, .vision, .objetivo, .valores {
-    line-height: 30px;
+  .texto-mision, .texto-vision, .texto-valores {
+    display: block ruby;
+    padding: 20px;
+    border-bottom: 2px solid #85aeee;
   }
-  .mision {
-    display: flex;
-    margin-bottom: 100px;
+  .titulo {
+    margin: 0;
+    letter-spacing: -0.03em;
+    font-size: 24px;
   }
-  .texto-mision {
-    padding-right: 10px;
-  }
-  .vision {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 100px;
-  }
-  .texto-vision {
-    padding-left: 20px;
+  .parrafos {
+    font-size: 14px;
+    color: #7e8aa7;
   }
   .objetivo {
-    display: flex;
-    margin-bottom: 100px;
+      width: 80%;
+      margin: auto;
+      border-radius: 50px;
+      display: flex;
   }
   .texto-objetivo {
-    padding-right: 15px;
+    color: #5f5f5f;
   }
-  .valores {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-  }
-  .texto-valores {
-    margin-right: 20px;
-  }
-  .imagen-empleados {
-    height: 350px;
-  }
-  .contenedor-empleados {
-    text-align: center;
+  .contenedor-beneficios {
+    padding: 45px;
   }
   .beneficios-empresa {
-    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+    color: #5f5f5f;
+    margin-bottom: 50px;
   }
+  .beneficios-empleados {
+    padding: 28px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #5f5f5f;
+  }
+
 }
 @media (min-width: 1024px) {
-  .imagen-mision, .imagen-vision, .imagen-valores, .imagen-objetivo {
-    height: 350px;
-  }
-  .imagen-empresa {
-    height: 450px;
-  }
-  .contenedor-empresa {
-    text-align: center;
-  }
-  .imagen-mision, .imagen-empresa {
-    border-radius: 25% 10%;
-    padding-top: 20px;
-  }
-  .imagen-vision, .imagen-empleados {
-    border-radius: 10% 30% 50% 70%;
-    padding-top: 25px;
-  }
-  .imagen-objetivo {
-    border-radius: 10px 100px / 120px;
-  }
-  .imagen-valores {
-    border-radius: 50% 20% / 10% 40%;
-  }
   .contenido-valores {
-    padding: 75px;
-  }
-  .mision, .vision, .objetivo, .valores {
-    line-height: 30px;
-  }
-  .mision {
     display: flex;
-    margin-bottom: 100px;
+    width: 80%;
+    margin: auto;
   }
-  .texto-mision {
-    padding-right: 20px;
+  .texto-mision, .texto-vision, .texto-valores {
+    display: block ruby;
+    padding: 20px;
   }
-  .vision {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 100px;
+  .titulo {
+    margin: 0;
+    letter-spacing: -0.03em;
+    font-size: 24px;
   }
-  .texto-vision {
+  .parrafos {
     padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #7e8aa7;
   }
-  .objetivo {
-    display: flex;
-    margin-bottom: 100px;
+  .texto-mision:hover {
+    transform: scale(1.1);
   }
-  .texto-objetivo {
-    padding-right: 15px;
+  .texto-vision:hover {
+    transform: scale(1.1);
+  }
+  .texto-valores:hover {
+    transform: scale(1.1);
   }
   .valores {
+    width: inherit;
+  }
+  .objetivo {
+    width: 90%;
+    margin: auto;
+    border-radius: 50px;
     display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+    color: #5f5f5f;
   }
-  .texto-valores {
-    margin-right: 20px;
+  .objetivo:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(7,121,222,1) 0%, rgba(20,72,140,1) 90% );
+    color: white;
   }
-  .imagen-empleados {
-    height: 400px;
+  .texto-objetivo:hover {
+    color: white;
   }
-  .contenedor-empleados {
-    text-align: center;
+  .contenedor-beneficios {
+    display: flex;
+    padding: 60px;
   }
   .beneficios-empresa {
-    margin-bottom: 100px;
+    width: -moz-available;
+    margin-right: 78px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+    color: #5f5f5f;
+  }
+  .beneficios-empleados {
+    padding: 28px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #5f5f5f;
+  }
+  .beneficios-empleados:hover {
+    transform: scale(1.1);
+  }
+  .beneficios-empresa:hover {
+    transform: scale(1.1);
   }
 }
 
