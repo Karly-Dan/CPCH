@@ -30,9 +30,9 @@ export default {
 
 <style>
 .contenedor-cursos {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-family: Arial, Helvetica, sans-serif;
-
+    background-color: white;
 }
 .texto-tarjeta {
     text-align: center;
