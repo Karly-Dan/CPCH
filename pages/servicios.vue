@@ -295,6 +295,7 @@ main {
     .imagen-certificacion {
         display: block;
         margin: auto;
+        margin-bottom: 20px;
     }
     .contenedor-servicios {
         padding: 20px;
