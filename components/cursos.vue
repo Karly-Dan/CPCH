@@ -61,7 +61,7 @@ export default {
 }
 @media (min-width: 768px) and (max-width: 1023px) {
     .contenedor-cursos {
-        width: 28%;
+        width: 40%;
         margin-right: 20px;
     }
     .imagen-cursos {
