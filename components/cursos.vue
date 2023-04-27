@@ -1,6 +1,6 @@
 <template>
   <div class="contenedor-cursos">
-    <img class="imagen-cursos" src="../assets/cursos.jpg" alt="imagen">
+    <img class="imagen-cursos" :src="require(`/assets/${imagen}.jpeg`)" alt="imagen">
     <h1 class="texto-tarjeta">{{ titulo }}</h1>
     <button-a
     nombre="!Ver mas¡" 
@@ -16,6 +16,10 @@ import ButtonA from './buttonA.vue'
 
 export default {
     props: {
+        imagen: {
+            type: String,
+            default: '',
+        },
         titulo: {
             type: String,
             default: '',
@@ -36,8 +40,9 @@ export default {
 }
 .texto-tarjeta {
     text-align: center;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 17px;
+    padding: 10px;
+    color: #5f5f5f;
 }
 .button-tarjeta {
     width: 190px;
@@ -45,7 +50,6 @@ export default {
 .imagen-cursos {
     width: 100%;
 }
-
 
 @media (max-width: 776px) {
     .contenedor-cursos {
@@ -60,6 +64,10 @@ export default {
         width: 28%;
         margin-right: 20px;
     }
+    .imagen-cursos {
+        height: 231px;
+        width: 100%;
+    }
 }
 @media (min-width: 1024px) {
     .button-tarjeta {
@@ -67,6 +75,12 @@ export default {
     }
     .contenedor-cursos {
         width: 26%;
+    }
+    .contenedor-cursos:hover {
+        transform: scale(1.1);
+    }
+    .imagen-cursos {
+        height: 230px;
     }
 }
 </style>

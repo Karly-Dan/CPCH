@@ -25,15 +25,31 @@
             <div class="contenedor-tarjetas">
                 <cursos-vue
                 titulo="ECO217.01 Impartición de cursos de formación del capital humano de manera presencial grupal"
+                imagen="presencial"
                 />
                 <cursos-vue
                 titulo="ECO154 Prestación de los servicios de limpieza"
+                imagen="limpieza"
                 />
                 <cursos-vue
-                titulo="Microsoft"
+                titulo="EC0054 Venta de productos ópticos"
+                imagen="opticos"
                 />
                 <cursos-vue
-                titulo="Microsoft"
+                titulo="EC0305 Prestación de servicios de atención a clientes"
+                imagen="cliente"
+                />
+                <cursos-vue
+                titulo="EC0435 Prestación de servicios para la atención, cuidado y desarrollo integral de las niñas y los niños en Centros de Atención Infantil"
+                imagen="infantil"
+                />
+                <cursos-vue
+                titulo="EC0217.1 Impartición de cursos de formación del capital humano de manera presencial grupal "
+                imagen="cp"
+                />
+                <cursos-vue
+                titulo="EC0076 Evaluación de la competencia de candidatos con base en Estándares de Competencia"
+                imagen="candidatos"
                 />
             </div>
         </div>
@@ -46,8 +62,8 @@
                 <img src="../assets/calidad.png" alt="" class="imagen-certificacion">
             </div>
             </div>
-            
             <cursos-vue
+            imagen="microsoft"
             titulo="Microsoft Excel"
             />
         </div>
@@ -72,11 +88,11 @@
             La entrega del documento a su conclusión será: constancias, reconocimiento o diploma, según corresponda.
             </p>
             <p>
-            <b><img src="../assets/computadora.png" alt="" class="img-diploma"> Modalidad: </b>virtual y/o presencial. <br><br>
+            <b><img src="../assets/computadora.png" alt="" class="img-diploma"> Modalidad: </b>Virtual y/o presencial. <br><br>
             <b><img src="../assets/futuro.png" alt="" class="img-diploma"> Duración:  </b>A partir de 8 horas. <br><br>
             <b><img src="../assets/calendario.png" alt="" class="img-diploma"> Horario: </b> Las especificaciones de impartición y logística directamente con el cliente.<br><br>
-            <b><img src="../assets/ceremonia-de-apertura.png" alt="" class="img-diploma"> Apertura: </b> a partir de 3 participantes.<br><br>
-            <b><img src="../assets/costo.png" alt="" class="img-diploma"> Costos: </b> cobro por hora de capacitación dependiendo de la duración y modalidad.<br><br>
+            <b><img src="../assets/ceremonia-de-apertura.png" alt="" class="img-diploma"> Apertura: </b> A partir de 3 participantes.<br><br>
+            <b><img src="../assets/costo.png" alt="" class="img-diploma"> Costos: </b> Cobro por hora de capacitación dependiendo de la duración y modalidad.<br><br>
             </p>
         </div>
 
@@ -396,7 +412,8 @@ main {
     .contenedor-cursos {
         width: 23%;
         margin-right: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
+        margin-top: 20px;
     }
     .titulo-diplomados {
         background-color: #021373;
@@ -408,6 +425,7 @@ main {
     .contenedor-video {
         display: flex;
         padding: 20px;
+        margin-bottom: 30px;
     }
     .texto-video {
         text-align: end;
@@ -421,7 +439,6 @@ main {
     .contenido-curso-micosoft {
         width: 45%;
         letter-spacing: 0.2rem;
-        padding: 50px;
         color: #5f5f5f;
         line-height: 30px;
     }
