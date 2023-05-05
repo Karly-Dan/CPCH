@@ -8,28 +8,31 @@
                 <h1>Certificaciones Conocer</h1>
             </div>
             <div class="contenedor-video">
-                <div>
+                <div class="Video">
                     <video src="https://cpch.s3.us-west-1.amazonaws.com/web/videos/conocer.mp4" autoplay controls></video>
                 </div>
                 <div class="texto-video">
                     <p>
                         Los programas de certificación de competencia laboral son basados con base en los Estándares de Competencia Laboral del Consejo Nacional de Normalización y Certificación CONOCER avalados por la Secretaría de Educación Pública SEP.
                         En los cuales se debe llevar a cabo un proceso de certificación: capacitación, evaluación, emisión del certificado.
-                        <br><br><br>
-                        <b>Modalidad:</b> Virtual y/o presencial
                     </p> 
+                    <div>
+                        <div>
+                            <b>Modalidad:</b> Virtual y/o presencial
+                        </div>
+                        <div class="contenedor-img-virtual">
+                            <img src="../assets/video-conferencia.png" alt="" class="imagen-virtual">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
         <div>
             <div class="contenedor-tarjetas">
                 <cursos-vue
                 titulo="ECO217.01 Impartición de cursos de formación del capital humano de manera presencial grupal"
                 imagen="presencial"
-                />
-                <cursos-vue
-                titulo="ECO154 Prestación de los servicios de limpieza"
-                imagen="limpieza"
                 />
                 <cursos-vue
                 titulo="EC0054 Venta de productos ópticos"
@@ -50,6 +53,10 @@
                 <cursos-vue
                 titulo="EC0076 Evaluación de la competencia de candidatos con base en Estándares de Competencia"
                 imagen="candidatos"
+                />
+                <cursos-vue
+                titulo="ECO154 Prestación de los servicios de limpieza"
+                imagen="limpieza"
                 />
             </div>
         </div>
@@ -272,18 +279,29 @@ main {
     font-size: 20px;
 
 }
+.texto-video {
+    text-align: justify;
+    line-height: 30px;
+    color: #5f5f5f;
+}
 
 @media (max-width: 776px) {
     .titulo-diplomados {
         background-color: #021373;
         color: white;
     }
+    .titulo-cursos {
+        color: #5f5f5f;
+    }
     .contenido-cursos {
-        width: 85%;
+        width: 95%;
         margin: auto;
     }
     video {
         width: 320px;
+    }
+    .Video {
+        text-align: center;
     }
     .contenedor-microsoft {
         margin: auto;
@@ -321,6 +339,19 @@ main {
         background-image: linear-gradient( 109.6deg,  rgba(245,56,56,1) 11.2%, rgba(234,192,117,1) 78% );
 
     }
+    .texto-video {
+        text-align: justify;
+        line-height: 30px;
+        background-image: radial-gradient( circle 993px at 0.5% 50.5%, rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+        border-radius: 20px;
+        padding: 12px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .contenedor-img-virtual {
+        text-align: center;
+
+    }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
     .contenedor-cursos {
@@ -330,6 +361,9 @@ main {
     video {
         width: 670px;
         height: 320px;
+    }
+    .Video {
+        text-align: center;
     }
     .contenido-cursos {
         width: 95%;
@@ -396,6 +430,18 @@ main {
         background-image: linear-gradient( 109.6deg,  rgba(245,56,56,1) 11.2%, rgba(234,192,117,1) 78% );
 
     }
+    .texto-video {
+        text-align: justify;
+        line-height: 30px;
+        background-image: radial-gradient( circle 993px at 0.5% 50.5%, rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+        border-radius: 20px;
+        padding: 12px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .contenedor-img-virtual {
+        text-align: center;
+    }
 
 
 }
@@ -428,9 +474,15 @@ main {
         padding: 20px;
         margin-bottom: 30px;
     }
+    .Video {
+        padding: 30px;
+    }
     .texto-video {
         text-align: end;
         line-height: 30px;
+        background-image: radial-gradient( circle 993px at 0.5% 50.5%, rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+        border-radius: 20px;
+        padding: 20px;
     }
     .titulo-cursos {
         letter-spacing: 0.25em;
@@ -456,6 +508,14 @@ main {
         transform: translateX(500px);
     }
     .imagen-certificacion {
+        transition: transform 1s ease;
+        transition-delay: 0.5s;
+        cursor: pointer;
+    }
+    .contenedor-img-virtual:hover .imagen-virtual {
+        transform: translateX(-300px);
+    }
+    .imagen-virtual {
         transition: transform 1s ease;
         transition-delay: 0.5s;
         cursor: pointer;
