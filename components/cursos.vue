@@ -79,8 +79,5 @@ export default {
     .contenedor-cursos:hover {
         transform: scale(1.1);
     }
-    .imagen-cursos {
-        height: 230px;
-    }
 }
 </style>
