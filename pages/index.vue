@@ -86,6 +86,7 @@ main {
   }
   .texto-principal {
         text-align: center;
+        margin-top: 40px;
     }
     .descripcion-del-texto {
         line-height: 30px;
@@ -103,6 +104,7 @@ main {
     }
     .texto-principal {
         text-align: center;
+        margin-top: 40px;
     }
     .descripcion-del-texto {
         line-height: 30px;
