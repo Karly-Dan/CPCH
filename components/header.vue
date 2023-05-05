@@ -9,10 +9,10 @@
             <label class="label-menu" for="menu"> <img src="../assets/menu.png" alt=""  class="menu-lista" style="filter: invert(100%) sepia(6%) saturate(7433%) hue-rotate(241deg) brightness(114%) contrast(91%);"> </label>
             <ul>
               <a href="/" class="list">Inicio</a>
-              <a href="/misionVision" class="list">Acerca de nosotros</a>
+              <a href="/nosotros" class="list">Acerca de nosotros</a>
               <a href="/servicios" class="list">Servicios</a>
-              <a href="/clientes" class="list">Nuestros Clientes</a>
               <a href="/contacto" class="list">Contacto</a>
+              <a href="/clientes" class="list2">Nuestros Clientes</a>
             </ul>
         </nav>
     </div>
@@ -76,8 +76,10 @@ ul{
   display: none;
 }
 input:checked  ~ ul{
-  display:block;
+  display: grid;
   margin-top: 32px;
+  justify-content: end;
+  text-align: center;
 }
 .input-menu {
   display: none;
@@ -119,6 +121,9 @@ ul{
   .titulo-cpch {
     text-align: center;
     font-size: 12px;
+    display: none;
+  }
+  .list2 {
     display: none;
   }
   .titulo-cpch1 {
@@ -185,6 +190,9 @@ ul{
       font-size: 20px;
       color: white;
     }
+    .list2 {
+      display: none;
+    }
     
 }
 
@@ -222,6 +230,9 @@ ul{
       display: none;
     }
     .contenedor-titulo-tablet {
+      display: none;
+    }
+    .list2 {
       display: none;
     }
 }
