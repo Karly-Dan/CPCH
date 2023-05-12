@@ -31,7 +31,7 @@
         <div>
             <div class="contenedor-tarjetas">
                 <cursos-vue
-                titulo="ECO217.01 Impartición de cursos de formación del capital humano de manera presencial grupal"
+                titulo="EC0217.01 Impartición de cursos de formación del capital humano de manera presencial grupal"
                 imagen="presencial"
                 />
                 <cursos-vue
@@ -47,15 +47,11 @@
                 imagen="infantil"
                 />
                 <cursos-vue
-                titulo="EC0217.1 Impartición de cursos de formación del capital humano de manera presencial grupal "
-                imagen="cp"
-                />
-                <cursos-vue
                 titulo="EC0076 Evaluación de la competencia de candidatos con base en Estándares de Competencia"
                 imagen="candidatos"
                 />
                 <cursos-vue
-                titulo="ECO154 Prestación de los servicios de limpieza"
+                titulo="EC0154 Prestación de los servicios de limpieza"
                 imagen="limpieza"
                 />
             </div>
