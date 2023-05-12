@@ -2,7 +2,7 @@
   <main>
     <button @click="generateReport">ver credencial</button>
     <client-only>
-    <vue-html2pdf id="pdf" filename="hehehe" ref="miejemplo" :manual-pagination="true"  pdf-content-width="100%" pdf-orientation="landscape" :enable-download="false" :preview-modal="true">
+    <vue-html2pdf id="pdf" @beforeDownload="beforeDownload" filename="hehehe" ref="miejemplo" :manual-pagination="true"  pdf-content-width="100%" pdf-orientation="landscape" :enable-download="false" :preview-modal="true">
         <section slot="pdf-content" class="contenedor-pdf">
             <div class="contenido-div">
                 <div class="contenido-empresa">
@@ -55,7 +55,28 @@ export default {
     methods: {
         generateReport () {
             this.$refs.miejemplo.generatePdf()
-        }
+        },
+        async beforeDownload ({ html2pdf, options, pdfContent }) {
+            if (this.isMobile()) {
+                const url = await html2pdf().set(options).from(pdfContent).toPdf().get('pdf').then((pdf) => {
+                    console.log(pdf);
+                }).save().output('bloburl')
+                console.log(url);
+                window.open(url)
+            }
+        },
+        isMobile () {
+            if (navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/iPad/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)) {
+                return true
+            }
+            return false 
+        },
     },
 
 }
