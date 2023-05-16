@@ -12,6 +12,8 @@
               <a href="/nosotros" class="list">Acerca de nosotros</a>
               <a href="/servicios" class="list">Servicios</a>
               <a href="/contacto" class="list">Contacto</a>
+              <a href="/microsoft" class="list">Microsoft</a>
+              <a href="cursosYdiplomados" class="list">Cursos y Diplomados</a>
               <a href="/clientes" class="list2">Nuestros Clientes</a>
             </ul>
         </nav>
