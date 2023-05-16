@@ -1,11 +1,24 @@
 <template>
+<main>
   <div class="contenedor-barra">
-    <a class="contenido-barra" href="/">Inicio</a>
-    <a class="contenido-barra" href="/nosotros">Nosotros</a>
-    <a class="contenido-barra" href="/servicios">Servicios</a>
-    <a class="contenido-barra-clientes" href="/clientes">Nuestros Clientes</a>
-    <a class="contenido-servicio" href="/contacto">Contacto</a>
-  </div>
+    <a href="/" class="contenido-barra">Inicio</a>
+    <a href="/nosotros" class="contenido-barra">Nosotros</a> 
+    <div class="subnav">
+      <a href="/servicios" class="contenido-barra">Servicios <img src="../assets/flecha-abajo.png" alt="" class="flecha-abajo"> </a>
+      <div class="mas">
+        <a iclass="submenu">Microsoft</a>
+        <a class="submenu">Cursos y Diplomados</a>
+      </div>
+    </div> 
+      <a class="contenido-barra-clientes" href="/clientes">Nuestros Clientes</a>
+      <a href="/contacto" class="contenido-barra">Contacto</a> 
+ </div>
+
+
+
+
+
+</main>
 </template>
 
 <script>
@@ -14,19 +27,45 @@ export default {
 </script>
 
 <style>
+.mas {
+  display: none;
+  position: absolute;
+  background-color: #df612a;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: white;
+}
+.flecha-abajo {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%) contrast(107%);
+  margin-left: 5px;
+  height: 10px;
+  margin-top: 5px;
+}
+.subnav:hover > .mas {
+  display: block; 
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.submenu:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.submenu {
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+}
 .contenedor-barra a:hover {
-    color: #df612a;
+    font-weight: bold;
 }
-
-.contenedor-barra a:active {
-    color: red;
-}
-
 .contenedor-barra {
     background-color: #021373;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .contenido-barra {
     color: white;
@@ -36,6 +75,7 @@ export default {
     padding-left: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
+    display: flex;
 }
 .contenido-servicio {
   color: white;
@@ -55,6 +95,15 @@ export default {
         display: none;
     }
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  #galería {
+  display: none;
+}
+#galería:target {
+  display: block;
+}
+}
 @media (min-width: 1024px) {
 }
 </style>
+
