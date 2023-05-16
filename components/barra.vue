@@ -6,8 +6,8 @@
     <div class="subnav">
       <a href="/servicios" class="contenido-barra">Servicios <img src="../assets/flecha-abajo.png" alt="" class="flecha-abajo"> </a>
       <div class="mas">
-        <a iclass="submenu">Microsoft</a>
-        <a class="submenu">Cursos y Diplomados</a>
+        <a href="/microsoft" class="submenu">Microsoft</a>
+        <a href="/cursosYdiplomados" class="submenu">Cursos y Diplomados</a>
       </div>
     </div> 
       <a class="contenido-barra-clientes" href="/clientes">Nuestros Clientes</a>
@@ -96,14 +96,11 @@ export default {
     }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  #galería {
-  display: none;
-}
-#galería:target {
-  display: block;
-}
 }
 @media (min-width: 1024px) {
+  .submenu {
+    padding-right: 35px;
+  }
 }
 </style>
 
