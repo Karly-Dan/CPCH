@@ -322,6 +322,9 @@ main {
         width: 95%;
         margin: auto;
     }
+    .img-diploma:hover {
+        transform: scale(1.2);
+    }
 }
 
 
