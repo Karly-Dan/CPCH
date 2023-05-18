@@ -27,7 +27,7 @@ export default {
     cursor: pointer;
     border-radius: 3px;
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     height: 45px;
     letter-spacing: 4.6px;
     padding: 10px;
