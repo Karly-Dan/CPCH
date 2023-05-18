@@ -2,17 +2,23 @@
   <div class="contenedor-cursos">
     <img class="imagen-cursos" :src="require(`/assets/${imagen}.jpeg`)" alt="imagen">
     <h1 class="texto-tarjeta">{{ titulo }}</h1>
-    <button-a
-    nombre="!Ver mas¡" 
-    class="button-tarjeta"
-    href="https://eco2017.cpcapitalhumano.com.mx/"
-    />
+    <div class="contenedor-botones">
+        <button-a-vue
+        nombre="Registrate"
+        :href="registro"
+        />
+        <button-a-vue
+        nombre="!Ver más¡"
+        :href="href"
+        />
+    </div>
   </div>
 </template>
 
 <script>
 import buttonVue from './button.vue'
-import ButtonA from './buttonA.vue'
+import buttonAVue from '../components/buttonA.vue'
+
 
 export default {
     props: {
@@ -23,11 +29,20 @@ export default {
         titulo: {
             type: String,
             default: '',
+        },
+        href: {
+            type: String,
+            default: '',
+        },
+        registro: {
+            type: String,
+            default: '',
         }
     },
     components: {
         buttonVue,
-        ButtonA,
+        buttonAVue,
+
     }
 }
 </script>
