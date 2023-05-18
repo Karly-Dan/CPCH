@@ -26,21 +26,25 @@ export default {
     background-color: white;
     cursor: pointer;
     border-radius: 3px;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
     height: 45px;
     letter-spacing: 4.6px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     border-radius: 23.5px;
     display: block;
-    width: 225px;
+    width: 215px;
     height: 25px;
     text-decoration: none;
     padding-top: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button-a:hover {
-    background-color: #021373;
+    background-color: #df612a;
     color: white;
     border-color: transparent;
 }
@@ -53,7 +57,7 @@ export default {
         margin-top: 19px;
         margin-bottom: 20px;
         border: transparent;
-        background-color: #df612a;
+        background-color: #021373;
         color: white;
     }
     .contenido-b-a {
@@ -68,7 +72,7 @@ export default {
         margin-bottom: 20px;
     }
     .button-a {
-        background: #df612a;
+        background-color: #021373;
         border: transparent;
         color: white;
     }
@@ -77,10 +81,9 @@ export default {
     .contenido-b-a {
         display: flex;
         justify-content: center;
-        padding: 15px;
     }
     .button-a {
-        background: #df612a;
+        background-color: #021373;
         border: transparent;
         color: white;
     }
