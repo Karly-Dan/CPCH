@@ -2,11 +2,11 @@
     <main>
         <header-vue/>
         <barra-vue />
-        <div style="height: 100vh;">
+        <div>
         <div class="contenedor-microsoft"> 
             <div class="contenido-curso-micosoft">
             <h1>CERTIFICACIONES MICROSOFT</h1>
-            <p>Este curso nos va a permitir demostrar nuestros conocimientos y habilidades con el uso de las tecnologías de Microsoft. </p>
+            <p>Obtener la certificación Microsoft “Office Specialist Certification” en Excel y Word niveles Asociado y Excel Experto.</p>
             <div class="contenedor-img-certificacion">
                 <img src="../assets/calidad.png" alt="" class="imagen-certificacion">
             </div>
@@ -16,6 +16,15 @@
             titulo="Microsoft Excel"
             />
         </div>
+        </div>
+        <div>
+            <div class="logos-microsoft">
+                <img src="../assets/icemexico.png" alt="">
+                <img src="../assets/Microsoft-Specialist.png" alt="">
+            </div>
+            <div class="parrafo-microsoft">
+                <p>El centro de profesionalización de capital humano en acompañamiento del Instituto de certificación empresarial de México se acredita como centro de certificación en Microsoft, lanzando la campaña denominada Reto Académico.</p>
+            </div>
         </div>
         <footer-vue/>
     </main>
@@ -45,6 +54,13 @@ body {
 main {
     font-family: Arial, Helvetica, sans-serif;
 }
+.parrafo-microsoft {
+    margin: auto;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    color: #5f5f5f;
+    line-height: 30px;
+}
 @media (max-width: 776px) {
     .contenedor-microsoft {
         margin: auto;
@@ -59,6 +75,13 @@ main {
         display: block;
         margin: auto;
         margin-bottom: 20px;
+    }
+    .logos-microsoft img{
+        height: 100px;
+    }
+    .logos-microsoft {
+        margin: auto;
+        text-align: center;
     }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -76,6 +99,14 @@ main {
         letter-spacing: 0.2rem;
         color: #5f5f5f;
         line-height: 30px;
+    }
+    .logos-microsoft img{
+        height: 145px;
+        margin-right: 20px;
+    }
+    .logos-microsoft {
+        margin: auto;
+        text-align: center;
     }
 
 }
@@ -111,5 +142,22 @@ main {
         transition-delay: 0.5s;
         cursor: pointer;
     }
+    .logos-microsoft img{
+        height: 145px;
+        margin-right: 50px;
+    }
+    .logos-microsoft {
+        margin: auto;
+        text-align: center;
+    }
+    .parrafo-microsoft {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        letter-spacing: 0.2rem;
+        color: #5f5f5f;
+        line-height: 30px;
+    }
+
 }
 </style>
