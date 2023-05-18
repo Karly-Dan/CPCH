@@ -52,6 +52,7 @@ export default {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    padding-bottom: 20px;
 }
 .texto-tarjeta {
     text-align: center;
