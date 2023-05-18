@@ -3,13 +3,16 @@
   <div class="contenedor-barra">
     <a href="/" class="contenido-barra">Inicio</a>
     <a href="/nosotros" class="contenido-barra">Nosotros</a> 
+
     <div class="subnav">
-      <a href="/servicios" class="contenido-barra">Servicios <img src="../assets/flecha-abajo.png" alt="" class="flecha-abajo"> </a>
+      <a  class="contenido-barra">Servicios <img src="../assets/flecha-abajo.png" alt="" class="flecha-abajo"> </a>
       <div class="mas">
         <a href="/microsoft" class="submenu">Microsoft</a>
         <a href="/cursosYdiplomados" class="submenu">Cursos y Diplomados</a>
+        <a href="/servicios" class="submenu">Certificaciones Conocer</a>
       </div>
     </div> 
+
       <a class="contenido-barra-clientes" href="/clientes">Nuestros Clientes</a>
       <a href="/contacto" class="contenido-barra">Contacto</a> 
  </div>
