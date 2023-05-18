@@ -33,26 +33,38 @@
                 <cursos-vue
                 titulo="EC0217.01 Impartición de cursos de formación del capital humano de manera presencial grupal"
                 imagen="presencial"
+                href="https://cpch.s3.us-west-1.amazonaws.com/web/pdf/estandares/EC0217.1.pdf"
+                registro="https://eco2017.cpcapitalhumano.com.mx/"
                 />
                 <cursos-vue
                 titulo="EC0054 Venta de productos ópticos"
                 imagen="opticos"
+                href="https://cpch.s3.us-west-1.amazonaws.com/web/pdf/estandares/EC054.pdf"
+                registro="https://eco2017.cpcapitalhumano.com.mx/"
                 />
                 <cursos-vue
                 titulo="EC0305 Prestación de servicios de atención a clientes"
                 imagen="cliente"
+                href="https://cpch.s3.us-west-1.amazonaws.com/web/pdf/estandares/EC0305.pdf"
+                registro="https://eco2017.cpcapitalhumano.com.mx/"
                 />
                 <cursos-vue
                 titulo="EC0435 Prestación de servicios para la atención, cuidado y desarrollo integral de las niñas y los niños en Centros de Atención Infantil"
                 imagen="infantil"
+                href="https://cpch.s3.us-west-1.amazonaws.com/web/pdf/estandares/EC0435.pdf"
+                registro="https://eco2017.cpcapitalhumano.com.mx/"
                 />
                 <cursos-vue
                 titulo="EC0076 Evaluación de la competencia de candidatos con base en Estándares de Competencia"
                 imagen="candidatos"
+                href="https://cpch.s3.us-west-1.amazonaws.com/web/pdf/estandares/EC0076.pdf"
+                registro="https://eco2017.cpcapitalhumano.com.mx/"
                 />
                 <cursos-vue
                 titulo="EC0154 Prestación de los servicios de limpieza"
                 imagen="limpieza"
+                href="https://cpch.s3.us-west-1.amazonaws.com/web/pdf/estandares/EC0154.pdf"
+                registro="https://eco2017.cpcapitalhumano.com.mx/"
                 />
             </div>
         </div>
@@ -67,6 +79,8 @@ import cursosVue from '../components/cursos.vue'
 import footerVue from '../components/footer.vue'
 import headerVue from '../components/header.vue'
 import barraVue from '../components/barra.vue'
+import buttonAVue from '../components/buttonA.vue'
+
 
 export default {
     components: {
@@ -74,6 +88,7 @@ export default {
         footerVue,
         cursosVue,
         barraVue,
+        buttonAVue,
     }
 }
 </script>
