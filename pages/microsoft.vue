@@ -57,7 +57,7 @@
                 </div>
                 <div class="proceso">
                     <h1>Proceso</h1>
-                    <img src="../assets/ejemplo.png" alt="" class="img-proceso">
+                    <img src="../assets/lineaMicrosoft.png" alt="" class="img-proceso">
                 </div>
             </div>
         </div>
