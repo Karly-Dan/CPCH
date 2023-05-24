@@ -3,14 +3,16 @@
         <header-vue/>
         <barra-vue />
         <div>
-        <div class="contenedor-microsoft"> 
-            <div class="contenido-curso-micosoft">
-            <h1>CERTIFICACIONES MICROSOFT</h1>
-            <p>Obtener la certificación Microsoft “Office Specialist Certification” en Excel y Word niveles Asociado y Excel Experto.</p>
-            <div class="contenedor-img-certificacion">
-                <img src="../assets/calidad.png" alt="" class="imagen-certificacion">
-            </div>
-            </div>
+        <div class="contenedor-microsoft">
+            <div class="contendor-texto-microsoft">
+                <div class="contenido-curso-micosoft">
+                <h1>CERTIFICACIONES MICROSOFT</h1>
+                <p>Obtener la certificación Microsoft “Office Specialist Certification” en Excel y Word niveles Asociado y Excel Experto.</p>
+                <div class="contenedor-img-certificacion">
+                    <img src="../assets/calidad.png" alt="" class="imagen-certificacion">
+                </div>
+                </div>
+            </div> 
             <cursos-vue
             imagen="microsoft"
             titulo="Microsoft Excel"
@@ -25,7 +27,7 @@
                 <img src="../assets/Microsoft-Specialist.png" alt="">
             </div>
             <div class="parrafo-microsoft">
-                <p>El centro de profesionalización de capital humano en acompañamiento del Instituto de certificación empresarial de México se acredita como centro de certificación en Microsoft, lanzando la campaña denominada Reto Académico.</p>
+                <p>El centro de profesionalización de capital humano en acompañamiento del Instituto de certificación empresarial de México se acredita como centro de certificación en Microsoft.</p>
             </div>
             <div class="tarjeta-contenido">
                 <div class="duracion">
@@ -53,7 +55,7 @@
                 <div class="entregables">
                     <h1>Entregables</h1>
                     <img src="../assets/ejemploCertificado.jpeg" alt="" class="imagen-microsoft">
-                    <img src="../assets/datosMicrosoft.jpeg" alt="">
+                    <img src="../assets/datosMicrosoft.jpeg" alt="" class="imagen-microsoft2">
                 </div>
                 <div class="proceso">
                     <h1>Proceso</h1>
@@ -205,7 +207,6 @@ main {
         margin-top: 20px;
     }
     .contenido-curso-micosoft {
-        width: 45%;
         letter-spacing: 0.2rem;
         color: #5f5f5f;
         line-height: 30px;
@@ -252,6 +253,22 @@ main {
         padding: 30px;
         margin-bottom: 20px;
     }
+    .contendor-texto-microsoft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    .imagen-microsoft:hover {
+        transform: scale(1.1);
+    }
+    .imagen-microsoft2:hover {
+        transform: scale(1.1);
+    }
+    .img-proceso:hover {
+        transform: scale(1.1);
+    }
+    
 
 
 }
