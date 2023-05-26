@@ -140,7 +140,7 @@ main {
         margin-bottom: 20px;
     }
     .img-proceso {
-        width: -moz-available;
+        width: 355px;
     }
     .imagen-microsoft {
         margin-bottom: 20px;
@@ -271,6 +271,6 @@ main {
     .boton-pdf {
         display: none;
     }
-    
+
 }
 </style>
