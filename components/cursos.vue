@@ -10,6 +10,7 @@
         <button-a-vue
         nombre="!Ver más¡"
         :href="href"
+        class="boton-pdf"
         />
     </div>
   </div>
@@ -72,7 +73,6 @@ export default {
         width: 86%;
         margin: auto;
         margin-bottom: 25px;
-
     }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
