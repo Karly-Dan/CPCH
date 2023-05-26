@@ -271,5 +271,6 @@ main {
     .boton-pdf {
         display: none;
     }
+    
 }
 </style>
