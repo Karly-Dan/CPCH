@@ -101,11 +101,9 @@ main {
 }
 .duracion {
     color: #021373;
-
 }
 .titulo-contenido {
     color: #021373;
-
 }
 .contenido {
     color: #5f5f5f;
@@ -116,7 +114,6 @@ main {
     color: #5f5f5f;
     letter-spacing: 0.2rem;
     line-height: 30px;
-
 }
 .imagen-microsoft {
     margin-right: 35px;
@@ -261,15 +258,18 @@ main {
     }
     .imagen-microsoft:hover {
         transform: scale(1.1);
+        transition: transform .5s;
     }
     .imagen-microsoft2:hover {
         transform: scale(1.1);
+        transition: transform .5s;
     }
     .img-proceso:hover {
         transform: scale(1.1);
+        transition: transform .5s;
     }
-    
-
-
+    .boton-pdf {
+        display: none;
+    }
 }
 </style>
