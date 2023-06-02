@@ -28,6 +28,10 @@
                 <b><img src="../assets/ceremonia-de-apertura.png" alt="" class="img-diploma"> Apertura: </b> A partir de 3 participantes.<br><br>
                 <b><img src="../assets/costo.png" alt="" class="img-diploma"> Costos: </b> Cobro por hora de capacitación dependiendo de la duración y modalidad.<br><br>
                 </p>
+                <button-a-vue
+                nombre="Registrate"
+                href="https://eco2017.cpcapitalhumano.com.mx/" 
+                />
             </div>
 
 
@@ -176,12 +180,16 @@
 import footerVue from '../components/footer.vue'
 import headerVue from '../components/header.vue'
 import barraVue from '../components/barra.vue'
+import buttonAVue from '../components/buttonA.vue'
+
 
 export default {
     components: {
         headerVue,
         footerVue,
         barraVue,
+        buttonAVue,
+
     }
 
 }
@@ -204,6 +212,11 @@ main {
     text-align: justify;
     line-height: 30px;
     color: #5f5f5f;
+}
+.contenedor-tarjeta {
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 @media (max-width: 776px) {
@@ -313,10 +326,6 @@ main {
     }
     .titulo-diplomados:hover {
         background-image: linear-gradient( 109.6deg,  rgba(245,56,56,1) 11.2%, rgba(234,192,117,1) 78% );
-    }
-    .contenedor-tarjeta {
-        padding-left: 15px;
-        padding-right: 15px;
     }
     .contenedor-diploma {
         width: 95%;
