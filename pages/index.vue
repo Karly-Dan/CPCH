@@ -5,10 +5,10 @@
 
     <div class="contenedor-carrusel">
         <VueSlickCarousel :arrows="false" :dots="true" autoplay style="text-align: center;">
-        <img src="../assets/pruebaimg2.jpg" alt="imagen" class="imagen-carrusel">
-        <img src="../assets/pruebaimg3.jpg" alt="imagen" class="imagen-carrusel">
-        <img src="../assets/pruebaimg4.jpg" alt="imagen" class="imagen-carrusel">
-        <img src="../assets/pruebaimg5.jpg" alt="imagen" class="imagen-carrusel">
+        <img src="../assets/imagen-carrusel1.jpg" alt="imagen" class="imagen-carrusel">
+        <img src="../assets/imagen-carrusel2.jpg" alt="imagen" class="imagen-carrusel">
+        <img src="../assets/imagen-carrusel3.jpg" alt="imagen" class="imagen-carrusel">
+        <img src="../assets/imagen-carrusel4.jpg" alt="imagen" class="imagen-carrusel">
         </VueSlickCarousel>
     </div>
 
