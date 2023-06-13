@@ -12,9 +12,9 @@
         <a href="/servicios" class="submenu">Certificaciones Conocer</a>
       </div>
     </div> 
-
       <a class="contenido-barra-clientes" href="/clientes">Nuestros Clientes</a>
-      <a href="/contacto" class="contenido-barra">Contacto</a> 
+      <a href="/contacto" class="contenido-barra">Contacto</a>
+      <a href="/" class="contenido-barra">Eventos</a>
  </div>
 
 
