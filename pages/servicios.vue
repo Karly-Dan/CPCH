@@ -37,12 +37,6 @@
                 registro="https://eco2017.cpcapitalhumano.com.mx/"
                 />
                 <cursos-vue
-                titulo="EC0054 Venta de productos ópticos"
-                imagen="opticos"
-                href="https://cpch.s3.us-west-1.amazonaws.com/web/pdf/estandares/EC054.pdf"
-                registro="https://eco2017.cpcapitalhumano.com.mx/"
-                />
-                <cursos-vue
                 titulo="EC0305 Prestación de servicios de atención a clientes"
                 imagen="cliente"
                 href="https://cpch.s3.us-west-1.amazonaws.com/web/pdf/estandares/EC0305.pdf"
