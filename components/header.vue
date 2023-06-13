@@ -15,6 +15,7 @@
               <a href="/microsoft" class="list">Microsoft</a>
               <a href="cursosYdiplomados" class="list">Cursos y Diplomados</a>
               <a href="/clientes" class="list2">Nuestros Clientes</a>
+              <a href="/" class="list2">Eventos</a>
             </ul>
         </nav>
     </div>
