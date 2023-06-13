@@ -1,7 +1,7 @@
 <template>
   <div class="contenedor-footer">
     <div class="contenido-direccion">
-        <p class="direccion">Av. Camino a la presa #6, San Isidro la Paz, Nicolás Romero, Edo. Méx. C.P. 54477</p>
+        <p class="direccion">Av. Camino a la Presa #6, San Isidro la Paz, Nicolás Romero, Edo. Méx. C.P. 54477</p>
         <p class="numero">55-1254-5494</p>
         <a href="/privacidad" class="privacidad">Avisos de Privacidad</a>
     </div>
