@@ -73,8 +73,8 @@
           <h1>Beneficios para los empleados</h1>
           <li style="line-height: 30px;">Reconocimiento a través de un documento de legalidad nacional y/o internacional, que respalda sus competencias laborales.</li>
           <li style="line-height: 30px;">Aumento de la posibilidad de encontrar empleo mejor remunerado.</li>
-          <li style="line-height: 30px;">Disminución de actos inseguros en el trabajo.</li>
-          <li style="line-height: 30px;">Incremento de su motivación y desempeño laboral.</li>
+          <li style="line-height: 30px;">Disminución de riesgos de trabajo</li>
+          <li style="line-height: 30px;">Incremento de motivación y desempeño laboral.</li>
         </div>
         <div class="contenedor-empleados">
           <img src="" alt="" class="imagen-empleados">
