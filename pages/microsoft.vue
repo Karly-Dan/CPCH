@@ -27,26 +27,26 @@
                 <img src="../assets/Microsoft-Specialist.png" alt="">
             </div>
             <div class="parrafo-microsoft">
-                <p>El centro de profesionalización de capital humano en acompañamiento del Instituto de certificación empresarial de México se acredita como centro de certificación en Microsoft.</p>
+                <p>El Centro de Profesionalización de Capital Humano en acompañamiento del Instituto de Certificación Empresarial de México se acredita como centro de certificación en Microsoft.</p>
             </div>
             <div class="tarjeta-contenido">
                 <div class="duracion">
-                    <p><b>Duración:</b> El proceso de capacitación dura 3 meses ya sea básico o avanzado.</p>
+                    <p><b>Duración:</b>El proceso de capacitación es de tres meses, tanto básico como avanzado.</p>
                 </div>
                 <div>
                     <div class="titulo-contenido">
                         <h1>Contenido</h1>
                     </div>
                     <div class="contenido">
-                        <li>100 horas de materiales visuales</li>
+                        <li>100 horas de materiales visuales.</li>
                         <li>Sesiones en vivo con especialistas para participantes de Excel Word básico y Excel avanzado con especialistas para preguntas y respuestas.</li>
-                        <li>Ejercicios descargables</li>
-                        <li>2 Oportunidades para presentar el examen de Certificación</li>
-                        <li>Recordatorios para que no se olviden las fechas de sesiones y avances</li>
-                        <li>Acompañamiento para migrar de la plataforma de prácticas al simulador de ICEMéxico </li>
-                        <li>Evaluación en plataforma Microsoft 2 oportunidades, en caso de no acreditar en la primera la siguiente es 20 días después En ese tiempo se puede seguir practicando para acreditar</li>
+                        <li>Ejercicios descargables.</li>
+                        <li>2 Oportunidades para presentar el examen de Certificación.</li>
+                        <li>Recordatorios para que no se olviden las fechas de sesiones y avances.</li>
+                        <li>Acompañamiento para migrar de la plataforma de prácticas al simulador de ICEMéxico. </li>
+                        <li>Evaluación en plataforma Microsoft 2 oportunidades, en caso de no acreditar en la primera la siguiente oportunidad es 20 días después, en ese tiempo se le da seguimiento al alumno para seguir practicando y acreditar en la segunda oportunidad.</li>
                         <li>El certificado de Microsoft se emite inmediatamente después de acreditar el examen.</li>
-                        <li>Al tome curso de certificación en Microsoft tienes derecho a obtener el certificado nacional del CONOCER reconocido por la Secretaría de Educación Pública</li>
+                        <li>Al tomar el curso de certificación en Microsoft tienes derecho para obtener el certificado nacional del CONOCER reconocido por la Secretaría de Educación Pública.</li>
                         <li>Ya obtenido el certificado tienes acceso a los contenidos por un año, para seguir practicando.</li>
                     </div>
                 </div>
