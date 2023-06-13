@@ -170,6 +170,175 @@
                 </div>
                 </div>
             </div>
+            *
+            <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">LÍDERES ESTRATÉGICOS</h1>
+                <div class="contenedor-tarjeta">
+                <p>
+                    <b>Objetivo: </b> 
+                    Al finalizar el participante conocerá la evaluación y autoevaluación de estilos de liderazgo más adecuado a su organización y objetivos.</p>
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>Test de estilos de personalidad</li>
+                    <li>Modelos situacionales de liderazgo</li>
+                    <li>Liderazgo situacional de crisis</li>
+                    <li>Análisis</li>
+                </div>
+                </div>
+            </div>
+
+            <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">SERVICIO AL CLIENTE Y FILOSOFÍA DISNEY</h1>
+                <div class="contenedor-tarjeta">
+                <p>
+                    <b>Objetivo: </b> 
+                    El participante obtendrá conocimientos prácticos  que  ayuden a que los clientes se sientan, atendidos, honrados y valorados en tiempo record, logrando su lealtad  por medio de técnicas de escucha activa. </p>
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>El poder de la pasión</li>
+                    <li>Las 7 claves del éxito de Disney</li>
+                </div>
+                </div>
+            </div>
+
+            <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">COACHING CON PROGRAMACIÓN NEUROLINGÜISTICA</h1>
+                <div class="contenedor-tarjeta">
+                <p>
+                    <b>Objetivo: </b> 
+                    Conocer, combinar y comprender cómo las personas utilizan el lenguaje y pensamientos, detallando metodologías para el desarrollo de procesos para llegar a un objetivo, conocerán como producir los resultados que se pueden usar tanto para el desarrollo personal o profesional.</p>
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>Cultura Kaizen en la actualidad e industria 4.0</li>
+                    <li>Aplicación de mejora continua y Kaizen en procesos operativos y administrativos</li>
+                    <li>Implementación de cultura de mejora continua en la organización</li>
+                    <li>El Gemba y su aplicación en la mejora de procesos</li>
+                    <li>Los 8 tipos de desperdicios de la organización</li>
+                    <li>Desarrollo y ejecución correcta de eventos Kaizen</li>
+                    <li>Formato A3 y método de implementación</li>
+                    <li>Estrategias de manipulación y persuasión</li>
+                </div>
+                </div>
+            </div>
+
+             <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">SIX SIGMA</h1>
+                <div class="contenedor-tarjeta">
+                <p>
+                    <b>Objetivo: </b> 
+                    Conocer y aplicar métodos de mejora de procesos para ayudar en las operaciones de las organizaciones y perfeccionar sus procesos de negocios y reducir lo más posible la cantidad de variaciones de defectos en cualquier proceso de la organización.</p>
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>Introducción</li>
+                    <li>Métrica six sigma</li>
+                    <li>Fases de definición, medición, análisis, mejora y control </li>
+                    <li>Se puede incluir la certificación</li>
+                </div>
+                </div>
+            </div>
+
+            <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">OFFICE</h1>
+                <div class="contenedor-tarjeta">
+                <p>
+                    <b>Objetivo: </b> 
+                    Que el participante conozca y aplique las herramientas de los programas del sistema Office, intermedio o avanzado, así mismo puede darse en Diplomado conjuntamente o por programa específico.</p>
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>Word</li>
+                    <li>Excel</li>
+                    <li>Power Point</li>
+                </div>
+                </div>
+            </div>
+
+            
+            <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">IMAGEN Y ESTILO</h1>
+                <div class="contenedor-tarjeta">
+                <p>
+                    <b>Objetivo: </b> 
+                    Conocer las formas de comunicación a través de la imagen personal, parte estratégica para dar a conocer nuestros objetivos tanto laboral como personal.</p>
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>Comunicación no verbal</li>
+                    <li>El aspecto y el vestir</li>
+                    <li>Formas y modos de conducirse</li>
+                </div>
+                </div>
+            </div>
+
+            
+            <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">SALUD MENTAL Y LAS DROGAS</h1>
+                <div class="contenedor-tarjeta">
+                <p>
+                    <b>Objetivo: </b> 
+                    La comunidad educativa ejerce un papel fundamental en las y los jóvenes para impulsar su desarrollo y propiciar las condiciones para que la población estudiantil se desenvuelva en un ambiente seguro. La salud mental es un pilar básico en la vida de adolescentes y jóvenes, por ello se le debe brindar atención a los indicadores relacionados con su desarrollo. Los adolescentes y jóvenes pasan por una etapa de cambio importante que los expone a diferentes riesgos, entre ellos los problemas de salud mental y el consumo de sustancias psicoactivas.</p>
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>Uso de las drogas en México</li>
+                    <li>Clasificación y sus efectos</li>
+                    <li>Coincidencias con enfermedades mentales</li>
+                    <li>El impacto en tu plan de vida</li>
+                </div>
+                </div>
+            </div>
+
+            
+            <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">ESCUELA PARA PADRES</h1>
+                <div class="contenedor-tarjeta">
+                <p>
+                    <b>Objetivo: </b> 
+                    Proporcionar a los padres información, orientación, formación y asesoramiento para su importante tarea de actuar como tales y, lograr así, un mayor desarrollo de la personalidad de sus hijos.</p>
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>Comunicación asertiva escuela y familia</li>
+                    <li>Creer en tus hijas e hijos y lograr que ellos crean en sí mismos crianza y autoeficacia</li>
+                    <li>Establecer reglas y límites en la familia</li>
+                    <li>Autoestima y manejo de emociones en la familia</li>
+                </div>
+                </div>
+            </div>
+
+            
+            <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">ORTOGRAFÍA Y REDACCIÓN</h1>
+                <div class="contenedor-tarjeta">
+                <p>
+                    <b>Objetivo: </b> 
+                    El participante conocerá que la ortografía es una parte de la Gramática que se ocupa de la forma correcta de escribir las palabras, cuyo principal uso es la comunicación, y para poder comunicarnos efectivamente, es necesario que elaboremos los mensajes de forma correcta y comprensible.</p>
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>Generalidades ortográficas</li>
+                    <li>Acentuación</li>
+                    <li>Correspondencia</li>
+                    <li>Aplicación práctica</li>
+                </div>
+                </div>
+            </div>
+
+            <div class="tarjetas-cursos-y-diplomas">
+                <h1 class="titulo-diplomados">NORMAS ISO 9000, 14000, 21000</h1>
+                <div class="contenedor-tarjeta">
+                <div>
+                    <h1 class="temario">Temario:</h1>
+                    <li>Asesorías</li>
+                    <li>Interpretación de las normas</li>
+                    <li>Implementación de los procesos</li>
+                    <li>Formación de auditores</li>
+                    <li>Certificación</li>
+                </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
         </div>
     </div>
     <footer-vue/>
