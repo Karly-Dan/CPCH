@@ -8,7 +8,7 @@
         :href="registro"
         />
         <button-a-vue
-        nombre="!Ver más¡"
+        nombre="¡Ver más!"
         :href="href"
         class="boton-pdf"
         />
