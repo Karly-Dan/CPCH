@@ -14,7 +14,7 @@
     </div> 
       <a class="contenido-barra-clientes" href="/clientes">Nuestros Clientes</a>
       <a href="/contacto" class="contenido-barra">Contacto</a>
-      <a href="/" class="contenido-barra">Eventos</a>
+      <a href="/eventos" class="contenido-barra">Eventos</a>
  </div>
 
 
