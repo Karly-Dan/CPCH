@@ -87,7 +87,5 @@ export default {
         border: transparent;
         color: white;
     }
-    
-    
 }
 </style>
