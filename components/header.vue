@@ -25,7 +25,6 @@
     <div class="contenedor">
         <div class="div-cpch">
             <img src="../assets/logoCPCH.jpg" alt="" class="logo-capitalhumano">
-            <img src="../assets/logoCZYA.png" alt="" class="logo-conde">
         </div>
         <div>
             <h1 class="titulo-cpch">CENTRO DE PROFESIONALIZACIÓN DE CAPITAL HUMANO</h1>
