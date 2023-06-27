@@ -16,11 +16,6 @@
       <a href="/contacto" class="contenido-barra">Contacto</a>
       <a href="/eventos" class="contenido-barra">Eventos</a>
  </div>
-
-
-
-
-
 </main>
 </template>
 
