@@ -12,6 +12,7 @@
         <a href="https://www.instagram.com/cpch._/?igshid=ZDdkNTZiNTM%3D" target="_blank"><img src="../assets/instagram.png" alt=""></a>
         <a href="https://mx.linkedin.com/" target="_blank"><img src="../assets/linkedin.png" alt="linked"></a>
         <a href="https://www.youtube.com/channel/UCfPQmFWnZgEi5mCsbMowUBA" target="_blank"><img src="../assets/youtube(1).png" alt="youtube"></a>
+        <a href="mailto:microsoft@cpcapitalhumano.com.mx" target="_blank"><img src="../assets/gmail.png" alt="gmail"></a>
     </div>
   </div>
 </template>
