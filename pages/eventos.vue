@@ -108,6 +108,9 @@ main {
     object-fit: scale-down;
     height: 150px;
   }
+  .usuario {
+    text-align: center;
+  }
 
 }
 @media (min-width: 768px) and (max-width: 1023px) {
