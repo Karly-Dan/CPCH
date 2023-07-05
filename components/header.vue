@@ -118,7 +118,7 @@ ul{
 @media (max-width: 776px) {
   .contenedor {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   .titulo-cpch {
     text-align: center;
@@ -136,6 +136,7 @@ ul{
   }
   .logo-c {
     height: 70px;
+    display: none;
   }
   .contenedor {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
@@ -211,9 +212,6 @@ ul{
     .contenedor-menu {
     display: none;
     }
-    .contenedor {
-    margin-bottom: 20px;
-    }
     .contenedor-header {
       display: none;
     }
@@ -222,11 +220,11 @@ ul{
       padding: 15px;
     }
     .logo-red {
-      height: 102px;
+      height: 115px;
     }
     .logo-capitalhumano {
       padding: 4px;
-      height: 102px;
+      height: 115px;
     }
     .logo-c {
       display: none;
