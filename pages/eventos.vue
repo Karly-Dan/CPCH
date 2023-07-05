@@ -101,7 +101,7 @@ main {
 }
 @media (max-width: 776px) {
   .imagen-blog {
-    height: 237px;
+    height: 221px;
   }
   .contenedor-blog {
     width: 95%;
