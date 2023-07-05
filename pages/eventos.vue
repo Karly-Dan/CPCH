@@ -38,11 +38,11 @@
 
       <div class="contenido-blog">
         <div class="contenedor-img">
-          <img src="../assets/liderazgo.jpg" alt="" class="imagen-blog">
+          <img src="../assets/certificado-maestras.jpg" alt="" class="imagen-blog">
         </div>
         <div class="contenedor-inf-blog">
-          <h1 class="titulo-blog">Reunión con empresarios.</h1>
-          <p class="subtitulo-blog">Uno de nuestros instructores impartiendo curso de Liderazgo con PNL, para empresas.</p>
+          <h1 class="titulo-blog">Entrega de certificados.</h1>
+          <p class="subtitulo-blog">Maestras de la guardería  de Cuidados Maternales plantel Coacalco, recibieron sus certificación en el EC0435 "Prestación de servicios para la atención, cuidado y desarrollo integral de las niñas y los niños en Centros de Atención Infantil."</p>
           <p class="usuario">Centro de Profesionalización de Capital Humano</p>
         </div>
       </div>
