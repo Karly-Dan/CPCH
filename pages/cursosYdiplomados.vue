@@ -170,7 +170,7 @@
                 </div>
                 </div>
             </div>
-            *
+            
             <div class="tarjetas-cursos-y-diplomas">
                 <h1 class="titulo-diplomados">LÍDERES ESTRATÉGICOS</h1>
                 <div class="contenedor-tarjeta">
